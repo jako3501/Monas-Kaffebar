@@ -6,6 +6,8 @@
         <div class="background-image">
             <img src="" alt="">
         </div>
+
+        <p>Hello world</p>
     </main>
 
     <?php endwhile; ?>
