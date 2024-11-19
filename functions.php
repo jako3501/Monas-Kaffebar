@@ -7,11 +7,7 @@ function monas_register_stylesheet() {
 }
 add_action("wp_enqueue_scripts", "monas_register_stylesheet");
 
-add_theme_support( 'menus' );
-add_theme_support( 'post-thumbnails' );
-
-add_action( 'init', 'register_my_menus' );
-
+//menu for navigation
 function register_my_menus() {
     register_nav_menus(
         array(
@@ -19,3 +15,20 @@ function register_my_menus() {
         )
     );
 }
+
+add_theme_support( 'menus' );
+add_theme_support( 'post-thumbnails' );
+
+add_action( 'init', 'register_my_menus' );
+
+//disable gutenberg editor
+function webshop_disable_gutenberg() {
+    remove_post_type_support("page", "editor");
+}
+add_action("init", "webshop_disable_gutenberg");
+
+// enable woocommerce plugin
+function shop_enable_woocommerce() {
+    add_theme_support("woocommerce");
+}
+add_action("after_setup_theme", "shop_enable_woocommerce");
