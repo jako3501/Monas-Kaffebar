@@ -11,7 +11,7 @@ add_action("wp_enqueue_scripts", "monas_register_stylesheet");
 function register_my_menus() {
     register_nav_menus(
         array(
-            'primary-menu' => __( 'Primary Menu' ),
+            'primary' => __( 'Primary Menu' ),
         )
     );
 }
