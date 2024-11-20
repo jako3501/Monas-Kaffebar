@@ -21,12 +21,13 @@
                     $excerpt = get_the_excerpt();
 
                     ?>
-
+                    <a href="<?php echo $url; ?>">
                     <?php echo get_the_post_thumbnail(get_the_ID(), 'medium-large'); ?>
-                    <h2><a href="<?php echo $url; ?>"><?php echo $title; ?></a></h2>
+                    <h2><?php echo $title; ?></h2>
                     <p class="excerpt"><?php echo $excerpt; ?></p>
                     <p class="date"><?php echo $date; ?> </p>
                     <p class="auther"><?php echo $author; ?></p>
+                    </a>
 
 
                 </article>
