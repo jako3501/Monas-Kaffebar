@@ -271,7 +271,7 @@ header nav .menu ul li a {
 }
 
 .comments-section form {
-  margin: 10px;
+  margin: 0 auto;
 }
 .comments-section form textarea #comment {
   border-radius: 10px;
