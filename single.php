@@ -10,7 +10,7 @@
         $content = get_the_content();
         ?>
 
-        <section class="container">
+        <section class="blog-post">
             <article>
                 <?php echo get_the_post_thumbnail(get_the_ID(), 'large'); ?>
                 <h2><?php echo $title; ?></h2>
