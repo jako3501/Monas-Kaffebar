@@ -54,7 +54,7 @@ header nav .menu ul li a {
   margin: 0 auto;
   max-width: 1200px;
 }
-.blog-container .blog-post {
+.blog-container .blog-content {
   background-color: var(--text-color-white);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -62,23 +62,23 @@ header nav .menu ul li a {
   padding: 20px;
   width: 100%;
 }
-.blog-container .blog-post h2 {
+.blog-container .blog-content h2 {
   font-family: var(--title-font);
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
-.blog-container .blog-post p {
+.blog-container .blog-content p {
   font-family: var(--text-font);
   font-size: 1rem;
   margin-bottom: 10px;
 }
-.blog-container .blog-post .excerpt {
+.blog-container .blog-content .excerpt {
   color: var(--excerpt-color);
   font-family: var(--text-font);
   font-size: 0.8rem;
   margin-bottom: 10px;
 }
-.blog-container .blog-post .read-more {
+.blog-container .blog-content .read-more {
   background-color: var(--headline-color);
   border: none;
   border-radius: 5px;
@@ -89,7 +89,7 @@ header nav .menu ul li a {
   padding: 5px 10px;
   text-transform: uppercase;
 }
-.blog-container .blog-post img {
+.blog-container .blog-content img {
   border-radius: 10px;
   margin-bottom: 10px;
   width: 100%;
