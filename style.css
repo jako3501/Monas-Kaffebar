@@ -218,8 +218,10 @@ header nav .menu ul li a {
   font-family: var(--text-font);
   color: var(--text-color);
   font-size: 1rem;
-  margin: 10px auto;
+  display: flex;
+  width: 100%;
 }
 .blog-post ul li {
-  margin: 0 0 10px 0;
+  place-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=style.css.map */
