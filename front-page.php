@@ -36,10 +36,35 @@
                     <input type="search" name="" id="" placeholder="Søg produkt">
                 </div>
 
+                <?php echo do_shortcode('[recent_products per_page="4" columns="4"]'); ?>
             </section>
 
-            <?php echo do_shortcode('[recent_products per_page="4" columns="4"]'); ?>
             
+            <section id="about-section">
+                <div class="about-text">
+                    <h1>Om Mona´s Kaffebar</h1>
+                    <p>Mit navn er Mona. Jeg er en 27 årige influenser og kaffebarista fra Aarhus. Her kan du se og købe mine specialdesignede kaffekopper! </p>
+                </div>
+
+                <div class="about-image">
+                    <img src="" alt="">
+                </div>
+
+                <div class="recipes-text">ç
+                    <h3>Vil du vide, hvordan jeg laver min iskaffe?</h3>
+                    <p>Tjek mine opskrifter!</p>
+                    <button>Opskrifter</button>
+                </div>
+
+                <div class="custom-designs-text">
+                    <h1>Custom Designs</h1>
+                    <p>Du kan også få et specialdesign hos os! <br> Skriv hvordan du ønsker, at din kop skal se ud,
+                    så laver vi den til dig.</p>
+
+                    <!-- .. forms for recipes -->
+                </div>
+
+            </section>
 
         </div>
 
