@@ -62,15 +62,15 @@ header{
     justify-content: space-between;
     margin: 0 auto;
     max-width: 1200px;
+    background-color: var(--background-color);
     .blog-content {
         background-color: var(--text-color-white);
-        border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         margin: 20px 0;
-        padding: 20px;
         width: 100%;
-        h2 {
+        h1 {
             font-family: var(--title-font);
+            color: var(--headline-color);
             font-size: 1.5rem;
             margin-bottom: 10px;
         }
@@ -97,7 +97,6 @@ header{
             text-transform: uppercase;
         }
         img {
-            border-radius: 10px;
             margin-bottom: 10px;
             width: 100%;
             height: 126px;

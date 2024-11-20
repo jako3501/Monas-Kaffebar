@@ -53,17 +53,17 @@ header nav .menu ul li a {
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1200px;
+  background-color: var(--background-color);
 }
 .blog-container .blog-content {
   background-color: var(--text-color-white);
-  border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 20px 0;
-  padding: 20px;
   width: 100%;
 }
-.blog-container .blog-content h2 {
+.blog-container .blog-content h1 {
   font-family: var(--title-font);
+  color: var(--headline-color);
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
@@ -90,7 +90,6 @@ header nav .menu ul li a {
   text-transform: uppercase;
 }
 .blog-container .blog-content img {
-  border-radius: 10px;
   margin-bottom: 10px;
   width: 100%;
   height: 126px;
