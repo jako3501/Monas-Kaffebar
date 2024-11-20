@@ -7,6 +7,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const openPhoneNavMenu = () => {
         hamMenu.classList.toggle('active');
-        console.log("changing to active");
     };
 });
