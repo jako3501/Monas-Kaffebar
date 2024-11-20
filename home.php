@@ -25,7 +25,8 @@
                     <?php echo get_the_post_thumbnail(get_the_ID(), 'large'); ?>
                     <h2><a href="<?php echo $url; ?>"><?php echo $title; ?></a></h2>
                     <p class="excerpt"><?php echo $excerpt; ?></p>
-                    <p><?php echo $date; ?> by <?php echo $author; ?></p>
+                    <p class="date"><?php echo $date; ?> </p>
+                    <p class="auther"><?php echo $author; ?></p>
 
 
                 </article>
