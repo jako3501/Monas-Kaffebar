@@ -117,7 +117,7 @@ header nav .menu ul li a {
   color: var(--headline-color);
   font-family: var(--text-font);
   font-size: 0.8rem;
-  margin: 10px 20px;
+  margin: 0 20px 10px 20px;
   font-style: italic;
   float: right;
 }
@@ -125,7 +125,7 @@ header nav .menu ul li a {
   color: var(--headline-color);
   font-family: var(--text-font);
   font-size: 0.8rem;
-  margin: 10px 20px;
+  margin: 0 20px 10px 20px;
   font-style: italic;
   float: left;
 }
@@ -133,7 +133,7 @@ header nav .menu ul li a {
   color: var(--excerpt-color);
   font-family: var(--text-font);
   font-size: 1rem;
-  margin: 10px 20px;
+  margin: 0 20px 10px 20px;
 }
 .blog-container .blog-content .read-more {
   background-color: var(--headline-color);
