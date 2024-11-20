@@ -6,11 +6,11 @@ Author: Sergio & Jakob
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 :root {
-    --title-font: "DM Serif Display", serif,
-        --text-font: "Nunito", serif;
-
+    --title-font: "DM Serif Display", serif;
+    --text-font: "Nunito", serif;
     --background-color: #F2E3D8;
     --headline-color: #B48066;
+    --contrast-color: #D6BCAA;
     --text-color: #000000;
     --text-color-white: #ffffff;
     --excerpt-color: #979797;
@@ -21,6 +21,18 @@ Author: Sergio & Jakob
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+h1{
+    font-family: var(--title-font);
+}
+
+p{
+    font-family: var(--text-font);
 }
 
 header {
@@ -102,34 +114,71 @@ header {
     }
 }
 
-.frontpage-container {
-    .background-image {
-        width: 100%;
-        height: 100vh;
-        transform: translateY(-80px);
-        overflow: hidden;
-
-        img {
-            background-repeat: no-repeat;
-            background-position: center;
-            background-attachment: fixed;
-            background-size: cover;
-            position: absolute;
-            top: 0;
-            height: 100vh;
+.frontpage-container{
+    #hero-section{
+        .background-image{
             width: 100%;
-            object-fit: cover;
-            object-position: center center;
-            z-index: 0;
+            height: 100vh;
+            transform: translateY(-80px);
+            overflow: hidden;
+            img{
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;
+                background-size: cover;
+                position: absolute;
+                top:0;
+                height: 100vh;
+                width: 100%;
+                object-fit: cover;
+                object-position: center center;
+                z-index: 0;
+            }
+    
         }
-
-        svg {
-            position: absolute;
-            z-index: 1001;
-            bottom: 10px;
-            right: 10px;
+    
+        .hero-visuals{
+            img{
+                position: absolute;
+                left: 50%;
+                top: 35%;
+                transform: translate(-50%, -50%);
+                width: 45%;
+            }
+            svg{
+                position: absolute;
+                z-index: 1001;
+                bottom: 10px;
+                right: 10px;
+            }
         }
     }
+    
+    #products-section{
+        padding-bottom: 100px;
+        margin: 0 10%;
+        .search-field{
+            background-color: var(--contrast-color);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            height: 40px;
+            border-radius: 25px;
+            svg{
+                margin-left: 15px;
+                // margin-bottom: 3px;
+            }
+            input{
+                border-bottom: 1px solid black;
+                border-top: 0;
+                border-left: 0;
+                border-right: 0;
+                background-color: transparent;
+                width: 80%;
+            }
+        }
+    }
+
 }
 
 
