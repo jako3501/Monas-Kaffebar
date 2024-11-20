@@ -156,6 +156,7 @@ header nav .menu ul li a {
 
 .blog-post {
   margin: 20px 0;
+  background-color: var(--background-color);
 }
 .blog-post img {
   width: 100%;
@@ -164,4 +165,22 @@ header nav .menu ul li a {
      object-fit: cover;
   overflow: hidden;
   margin-bottom: 50px;
+}
+.blog-post h2 {
+  font-family: var(--title-font);
+  color: var(--headline-color);
+  font-size: 2rem;
+  margin: 0 20px 10px 20px;
+}
+.blog-post h3 {
+  font-family: var(--title-font);
+  color: var(--headline-color);
+  font-size: 1.5rem;
+  margin: 0 20px 10px 20px;
+}
+.blog-post p {
+  font-family: var(--title-font);
+  color: var(--text-color);
+  font-size: 1rem;
+  margin: 0 20px 10px 20px;
 }/*# sourceMappingURL=style.css.map */

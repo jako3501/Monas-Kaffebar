@@ -30,7 +30,8 @@ header {
         display: flex;
         align-items: center;
         justify-content: flex-end;
-        .ham-menu{
+
+        .ham-menu {
             display: flex;
             flex-direction: column;
             position: relative;
@@ -38,7 +39,8 @@ header {
             height: 40px;
             width: 30px;
             margin: 0 50px;
-            span{
+
+            span {
                 height: 4px;
                 width: 100%;
                 left: 50%;
@@ -48,25 +50,31 @@ header {
                 transform: translate(-50%, -50%);
                 transition: .3s ease;
             }
+
             span:nth-child(1) {
                 top: 25%;
             }
+
             span:nth-child(2) {
                 top: 50%
             }
+
             span:nth-child(3) {
                 top: 75%;
             }
-            &.active { // Use `&` to correctly target the current `.ham-menu` element
+
+            &.active {
+
+                // Use `&` to correctly target the current `.ham-menu` element
                 span:nth-child(1) {
                     top: 50%;
                     transform: translate(-50%, -50%) rotate(45deg);
                 }
-            
+
                 span:nth-child(2) {
                     opacity: 0;
                 }
-            
+
                 span:nth-child(3) {
                     top: 50%;
                     transform: translate(-50%, -50%) rotate(-45deg);
@@ -182,6 +190,7 @@ header {
 
 .blog-post {
     margin: 20px 0;
+    background-color: var(--background-color);
 
     img {
         width: 100%;
@@ -190,4 +199,27 @@ header {
         overflow: hidden;
         margin-bottom: 50px;
     }
+
+    h2 {
+        font-family: var(--title-font);
+        color: var(--headline-color);
+        font-size: 2rem;
+        margin: 0 20px 10px 20px;
+    }
+
+    h3 {
+        font-family: var(--title-font);
+        color: var(--headline-color);
+        font-size: 1.5rem;
+        margin: 0 20px 10px 20px;
+    }
+
+    p {
+        font-family: var(--title-font);
+        color: var(--text-color);
+        font-size: 1rem;
+        margin: 0 20px 10px 20px;
+    }
+
+
 }
