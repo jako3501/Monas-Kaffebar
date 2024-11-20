@@ -55,13 +55,19 @@ header nav .menu ul li a {
   max-width: 1200px;
   background-color: var(--background-color);
 }
+.blog-container h1 {
+  font-family: var(--title-font);
+  color: var(--headline-color);
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
 .blog-container .blog-content {
   background-color: var(--text-color-white);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 20px 0;
   width: 100%;
 }
-.blog-container .blog-content h1 {
+.blog-container .blog-content h2 {
   font-family: var(--title-font);
   color: var(--headline-color);
   font-size: 1.5rem;
@@ -71,6 +77,10 @@ header nav .menu ul li a {
   font-family: var(--text-font);
   font-size: 1rem;
   margin-bottom: 10px;
+}
+.blog-container .blog-content a {
+  color: var(--headline-color);
+  text-decoration: none;
 }
 .blog-container .blog-content .excerpt {
   color: var(--excerpt-color);
