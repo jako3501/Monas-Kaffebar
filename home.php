@@ -1,12 +1,13 @@
 <?php get_header() ?>
 
 <main>
-    <p>Test</p>
-    <div class="blog-header">
-        <h1>Recipies</h1>
-    </div>
-
     <section class="blog-container ">
+        <p>Test</p>
+        <div class="blog-header">
+            <h1>Recipies</h1>
+        </div>
+
+
         <?php if (have_posts()): ?>
             <?php while (have_posts()):
                 the_post() ?>
