@@ -23,15 +23,15 @@ Author: Sergio & Jakob
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: var(--background-color);
 }
 
-h1{
+h1 {
     font-family: var(--title-font);
 }
 
-p{
+p {
     font-family: var(--text-font);
 }
 
@@ -115,38 +115,40 @@ header {
     }
 }
 
-.frontpage-container{
-    #hero-section{
-        .background-image{
+.frontpage-container {
+    #hero-section {
+        .background-image {
             width: 100%;
             height: 100vh;
             transform: translateY(-80px);
             overflow: hidden;
-            img{
+
+            img {
                 background-repeat: no-repeat;
                 background-position: center;
                 background-attachment: fixed;
                 background-size: cover;
                 position: absolute;
-                top:0;
+                top: 0;
                 height: 100vh;
                 width: 100%;
                 object-fit: cover;
                 object-position: center center;
                 z-index: 0;
             }
-    
+
         }
-    
-        .hero-visuals{
-            img{
+
+        .hero-visuals {
+            img {
                 position: absolute;
                 left: 50%;
                 top: 35%;
                 transform: translate(-50%, -50%);
                 width: 45%;
             }
-            svg{
+
+            svg {
                 position: absolute;
                 z-index: 1001;
                 bottom: 10px;
@@ -154,22 +156,25 @@ header {
             }
         }
     }
-    
-    #products-section{
+
+    #products-section {
         padding-bottom: 100px;
         margin: 0 10%;
-        .search-field{
+
+        .search-field {
             background-color: var(--contrast-color);
             display: flex;
             align-items: center;
             gap: 10px;
             height: 40px;
             border-radius: 25px;
-            svg{
+
+            svg {
                 margin-left: 15px;
                 // margin-bottom: 3px;
             }
-            input{
+
+            input {
                 border-bottom: 1px solid black;
                 border-top: 0;
                 border-left: 0;
@@ -299,7 +304,7 @@ header {
         color: var(--text-color);
         font-size: 1rem;
         margin: 0 20px 10px 20px;
-       
+
     }
 
     ul {
@@ -318,21 +323,22 @@ header {
 }
 
 .comments-section {
+    padding: 0 20px;
+
     h3 {
         font-family: var(--title-font);
         color: var(--headline-color);
         font-size: 1.5rem;
         margin: 40px 20px 10px 20px;
     }
-    form {
-        margin: 0 auto;
-        padding: 20px;
 
+    form {
         textarea {
             border-radius: 10px;
             padding: 10px;
             max-width: 100%;
         }
+
         input {
             background-color: var(--headline-color);
             border: none;
@@ -344,7 +350,7 @@ header {
             padding: 5px 10px;
         }
     }
-    
+
 
 
 }
