@@ -10,6 +10,12 @@
     <header>
         <nav>
 
+            <div class="hamburguer-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
             <?php 
                 wp_nav_menu(
                     array(
