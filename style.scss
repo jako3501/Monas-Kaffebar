@@ -239,7 +239,7 @@ header {
         font-family: var(--title-font);
         color: var(--headline-color);
         font-size: 1.5rem;
-        margin: 0 20px 10px 20px;
+        margin: 40px 20px 10px 20px;
     }
 
     p {
@@ -247,6 +247,15 @@ header {
         color: var(--text-color);
         font-size: 1rem;
         margin: 0 20px 10px 20px;
+    }
+    ul {
+        font-family: var(--text-font);
+        color: var(--text-color);
+        font-size: 1rem;
+        margin: 10px auto;
+        li {
+            margin: 0 0 10px 0;
+        }
     }
 
 
