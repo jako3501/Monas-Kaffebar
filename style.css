@@ -218,12 +218,12 @@ header nav .menu ul li a {
   font-family: var(--text-font);
   color: var(--text-color);
   font-size: 1rem;
-  margin: 0 20px 0 20px;
+  padding: 0 20px 0 20px;
   list-style-type: none;
 }
 .blog-post ol .wp-block-list {
   font-family: var(--text-font);
   color: var(--text-color);
   font-size: 1rem;
-  margin: 0 20px 0 20px;
+  padding: 0 20px 0 20px;
 }/*# sourceMappingURL=style.css.map */
