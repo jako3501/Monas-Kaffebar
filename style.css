@@ -76,12 +76,28 @@ header nav .menu ul li a {
 }
 .blog-container .blog-content p {
   font-family: var(--text-font);
-  font-size: 1rem;
+  font-size: 26px;
   margin-bottom: 10px;
 }
 .blog-container .blog-content a {
   color: var(--headline-color);
   text-decoration: none;
+}
+.blog-container .blog-content .date {
+  color: var(--headline-color);
+  font-family: var(--text-font);
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+  font-style: italic;
+  float: right;
+}
+.blog-container .blog-content .auther {
+  color: var(--headline-color);
+  font-family: var(--text-font);
+  font-size: 0.8rem;
+  margin: 10px 0;
+  font-style: italic;
+  float: left;
 }
 .blog-container .blog-content .excerpt {
   color: var(--excerpt-color);
