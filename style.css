@@ -273,11 +273,11 @@ header nav .menu ul li a {
 .comments-section form {
   margin: 0 auto;
 }
-.comments-section form textarea #comment {
+.comments-section form textarea {
   border-radius: 10px;
   padding: 10px;
 }
-.comments-section form input #submit {
+.comments-section form input .submit {
   background-color: var(--headline-color);
   border: none;
   border-radius: 5px;

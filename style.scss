@@ -322,11 +322,11 @@ header {
     form {
         margin: 0 auto;
 
-        textarea #comment {
+        textarea {
             border-radius: 10px;
             padding: 10px;
         }
-        input #submit {
+        input .submit {
             background-color: var(--headline-color);
             border: none;
             border-radius: 5px;
