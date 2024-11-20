@@ -5,7 +5,7 @@ Author: Sergio & Jakob
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 :root {
   --title-font: "DM Serif Display", serif,
-  --text-font: "Nunito", serif;
+      --text-font: "Nunito", serif;
   --background-color: #F2E3D8;
   --headline-color: #B48066;
   --text-color: #000000;
@@ -58,13 +58,13 @@ header nav .menu ul li a {
 .blog-container h1 {
   font-family: var(--title-font);
   color: var(--headline-color);
-  font-size: 1.5rem;
-  margin-bottom: 10px;
+  font-size: 2rem;
+  margin: 40px 10px 20px 10px;
 }
 .blog-container .blog-content {
   background-color: var(--text-color-white);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin: 20px 0;
+  margin: 10px 0 50px 0;
   width: 100%;
   filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.2431372549));
 }
@@ -76,7 +76,7 @@ header nav .menu ul li a {
 }
 .blog-container .blog-content p {
   font-family: var(--text-font);
-  font-size: 26px;
+  font-size: 1rem;
   margin: 10px;
 }
 .blog-container .blog-content a {

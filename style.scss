@@ -5,46 +5,51 @@ Author: Sergio & Jakob
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-:root{
+:root {
     --title-font: "DM Serif Display", serif,
-    --text-font: "Nunito", serif;
+        --text-font: "Nunito", serif;
 
     --background-color: #F2E3D8;
     --headline-color: #B48066;
     --text-color: #000000;
     --text-color-white: #ffffff;
     --excerpt-color: #979797;
-    
+
 }
 
-*{
+* {
     padding: 0;
-    margin:0;
+    margin: 0;
     box-sizing: border-box;
 }
 
-header{
-    nav{
+header {
+    nav {
         height: 80px;
         min-width: 100%;
         display: flex;
         align-items: center;
         justify-content: flex-end;
-        .hamburguer-menu{
+
+        .hamburguer-menu {
             display: flex;
             flex-direction: column;
-            span{
+
+            span {
                 height: 3px;
                 width: 20px;
                 background-color: black;
             }
         }
-        .menu{
-            ul{
+
+        .menu {
+            ul {
                 display: flex;
                 margin: 0;
-                li{
+
+                li {
                     list-style-type: none;
+
                     a {
                         color: black;
                         text-decoration: none;
@@ -63,34 +68,40 @@ header{
     margin: 0 auto;
     max-width: 1200px;
     background-color: var(--background-color);
+
     h1 {
         font-family: var(--title-font);
         color: var(--headline-color);
-        font-size: 1.5rem;
-        margin-bottom: 10px;
+        font-size: 2rem;
+        margin: 40px 10px 20px 10px;
     }
+
     .blog-content {
         background-color: var(--text-color-white);
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        margin: 20px 0;
+        margin: 10px 0 50px 0;
         width: 100%;
         filter: drop-shadow(0px 0px 6px #0000003e);
+
         h2 {
             font-family: var(--title-font);
             color: var(--headline-color);
             font-size: 1.5rem;
             margin: 10px;
         }
+
         p {
             font-family: var(--text-font);
-            font-size: 26px;
+            font-size: 1rem;
             margin: 10px;
         }
+
         a {
             color: var(--headline-color);
             text-decoration: none;
         }
-        .date{
+
+        .date {
             color: var(--headline-color);
             font-family: var(--text-font);
             font-size: 0.8rem;
@@ -98,6 +109,7 @@ header{
             font-style: italic;
             float: right;
         }
+
         .auther {
             color: var(--headline-color);
             font-family: var(--text-font);
@@ -106,12 +118,14 @@ header{
             font-style: italic;
             float: left;
         }
+
         .excerpt {
             color: var(--excerpt-color);
             font-family: var(--text-font);
             font-size: 0.8rem;
             margin: 10px;
         }
+
         .read-more {
             background-color: var(--headline-color);
             border: none;
@@ -123,6 +137,7 @@ header{
             padding: 5px 10px;
             text-transform: uppercase;
         }
+
         img {
             margin-bottom: 10px;
             width: 100%;
