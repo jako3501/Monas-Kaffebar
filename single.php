@@ -17,13 +17,15 @@
                 <p><?php echo $date; ?> by <?php echo $author; ?></p>
                 <p><?php echo $content; ?></p>
             </article>
+        </section>
 
+        <section class="comments-section">
             <?php if (comments_open() || get_comments_number()): ?>
                 <?php comments_template(); ?>
             <?php endif; ?>
+        </section>
+    <?php endwhile; ?>
+<?php endif; ?>
 
-        <?php endwhile; ?>
-    <?php endif; ?>
 
-    </section>
-    <?php get_footer(); ?>
+<?php get_footer(); ?>
