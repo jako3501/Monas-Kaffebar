@@ -35,7 +35,10 @@
                     </label>
                     <input type="search" name="" id="" placeholder="Søg produkt">
                 </div>
+
             </section>
+
+            <?php echo do_shortcode('[recent_products per_page="8" columns="4"]'); ?>
             
 
         </div>
