@@ -252,7 +252,7 @@ header nav .menu ul li a {
   margin: 40px 20px 10px 20px;
 }
 .blog-post p {
-  font-family: var(--title-font);
+  font-family: var(--text-font);
   color: var(--text-color);
   font-size: 1rem;
   margin: 0 20px 10px 20px;
@@ -268,4 +268,22 @@ header nav .menu ul li a {
   color: var(--text-color);
   font-size: 1rem;
   margin: 0 10px;
+}
+
+.comments-section form {
+  margin: 0 auto;
+}
+.comments-section form textarea #comment {
+  border-radius: 10px;
+  padding: 10px;
+}
+.comments-section form input #submit {
+  background-color: var(--headline-color);
+  border: none;
+  border-radius: 5px;
+  color: var(--text-color-white);
+  cursor: pointer;
+  font-family: var(--text-font);
+  font-size: 1rem;
+  padding: 5px 10px;
 }/*# sourceMappingURL=style.css.map */
