@@ -220,8 +220,7 @@ header nav .menu ul li a {
   font-size: 1rem;
   display: flex;
   width: 100%;
-}
-.blog-post ul li {
+  flex-direction: column;
   place-items: center;
   justify-content: center;
 }/*# sourceMappingURL=style.css.map */
