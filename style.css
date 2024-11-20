@@ -102,7 +102,7 @@ header nav .menu ul li a {
 .blog-container .blog-content .excerpt {
   color: var(--excerpt-color);
   font-family: var(--text-font);
-  font-size: 0.8rem;
+  font-size: 1rem;
   margin: 10px;
 }
 .blog-container .blog-content .read-more {
