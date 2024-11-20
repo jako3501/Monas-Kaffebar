@@ -26,14 +26,44 @@ header nav {
   align-items: center;
   justify-content: flex-end;
 }
-header nav .hamburguer-menu {
+header nav .ham-menu {
   display: flex;
   flex-direction: column;
+  position: relative;
+  cursor: pointer;
+  height: 40px;
+  width: 30px;
+  margin: 0 50px;
 }
-header nav .hamburguer-menu span {
-  height: 3px;
-  width: 20px;
+header nav .ham-menu span {
+  height: 4px;
+  width: 100%;
+  left: 50%;
+  border-radius: 25px;
   background-color: black;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: 0.3s ease;
+}
+header nav .ham-menu span:nth-child(1) {
+  top: 25%;
+}
+header nav .ham-menu span:nth-child(2) {
+  top: 50%;
+}
+header nav .ham-menu span:nth-child(3) {
+  top: 75%;
+}
+header nav .ham-menu.active span:nth-child(1) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+header nav .ham-menu.active span:nth-child(2) {
+  opacity: 0;
+}
+header nav .ham-menu.active span:nth-child(3) {
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
 }
 header nav .menu ul {
   display: flex;

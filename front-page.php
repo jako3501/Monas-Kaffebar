@@ -4,11 +4,8 @@
 
     <main>
         <div class="background-image">
-            <img src="" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/hero-coffee.png" alt="">
         </div>
-
-        <p>Hello world</p>
-        <p>test Desktop</p>
     </main>
 
     <?php endwhile; ?>
