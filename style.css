@@ -151,6 +151,10 @@ header nav .menu ul li a {
   width: 80%;
 }
 
+.blog-post {
+  margin: 0;
+}
+
 .blog-container {
   display: flex;
   flex-wrap: wrap;
