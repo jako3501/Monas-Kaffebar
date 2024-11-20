@@ -38,7 +38,7 @@
 
             </section>
 
-            <?php echo do_shortcode('[recent_products per_page="8" columns="4"]'); ?>
+            <?php echo do_shortcode('[recent_products per_page="4" columns="4"]'); ?>
             
 
         </div>
