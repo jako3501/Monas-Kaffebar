@@ -218,9 +218,8 @@ header nav .menu ul li a {
   font-family: var(--text-font);
   color: var(--text-color);
   font-size: 1rem;
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  place-items: center;
-  justify-content: center;
+}
+.blog-post ul li {
+  margin: 0 0 10px 20px;
+  list-style-type: none;
 }/*# sourceMappingURL=style.css.map */
