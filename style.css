@@ -214,16 +214,20 @@ header nav .menu ul li a {
   font-size: 1rem;
   margin: 0 20px 10px 20px;
 }
-.blog-post p ul .wp-block-list {
+.blog-post ul .wp-block-list {
   font-family: var(--text-font);
   color: var(--text-color);
   font-size: 1rem;
-  padding: 0 20px 0 20px;
   list-style-type: none;
 }
-.blog-post p ol .wp-block-list {
+.blog-post ul .wp-block-list li {
+  margin: 0 20px;
+}
+.blog-post ol .wp-block-list {
   font-family: var(--text-font);
   color: var(--text-color);
   font-size: 1rem;
-  padding: 0 20px 0 20px;
+}
+.blog-post ol .wp-block-list li {
+  margin: 0 20px;
 }/*# sourceMappingURL=style.css.map */
