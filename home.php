@@ -1,6 +1,7 @@
 <?php get_header() ?>
 
 <main>
+    <p>Test</p>
     <div class="blog-header">
         <h1>Recipies</h1>
     </div>
