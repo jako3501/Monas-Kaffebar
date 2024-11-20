@@ -219,17 +219,10 @@ header nav .menu ul li a {
   color: var(--text-color);
   font-size: 1rem;
   margin: 0 20px;
-  list-style-type: none;
-}
-.blog-post ul li {
-  margin: 0 20px;
 }
 .blog-post ol {
   font-family: var(--text-font);
   color: var(--text-color);
   font-size: 1rem;
-  margin: 0 20px;
-}
-.blog-post ol li {
-  margin: 0 20px;
+  margin: 0 10px;
 }/*# sourceMappingURL=style.css.map */
