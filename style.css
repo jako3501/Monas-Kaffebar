@@ -274,14 +274,14 @@ header nav .menu ul li a {
   margin: 0 10px;
 }
 
-.comments-section {
-  padding: 0 20px;
-}
 .comments-section h3 {
   font-family: var(--title-font);
   color: var(--headline-color);
   font-size: 1.5rem;
   margin: 40px 20px 10px 20px;
+}
+.comments-section form {
+  padding: 0 20px;
 }
 .comments-section form textarea {
   border-radius: 10px;
