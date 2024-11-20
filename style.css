@@ -270,6 +270,12 @@ header nav .menu ul li a {
   margin: 0 10px;
 }
 
+.comments-section h3 {
+  font-family: var(--title-font);
+  color: var(--headline-color);
+  font-size: 1.5rem;
+  margin: 40px 20px 10px 20px;
+}
 .comments-section form {
   margin: 0 auto;
   padding: 20px;
@@ -277,8 +283,9 @@ header nav .menu ul li a {
 .comments-section form textarea {
   border-radius: 10px;
   padding: 10px;
+  max-width: 100%;
 }
-.comments-section form input .submit {
+.comments-section form input {
   background-color: var(--headline-color);
   border: none;
   border-radius: 5px;
