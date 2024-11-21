@@ -232,6 +232,7 @@ header nav .menu ul.active {
   margin-bottom: 0;
 }
 .frontpage-container #products-section .all-products-btn {
+  margin-top: 40px;
   box-shadow: 10px 10px 50px var(--excerpt-color);
   background-color: var(--green-color);
   padding: 5px 15px;
