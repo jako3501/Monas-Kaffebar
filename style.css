@@ -422,9 +422,9 @@ header nav .menu ul.active {
 }
 .contact-form .wpcf7-form input {
   border-radius: 10px;
-  padding: 10px;
+  padding: 0 10px;
   max-width: 100%;
-  margin: 10px;
+  margin: 0 10px;
 }
 .contact-form .wpcf7-form textarea {
   border-radius: 10px;
@@ -432,7 +432,7 @@ header nav .menu ul.active {
   max-width: 100%;
   margin: 10px;
 }
-.contact-form .wpcf7-form .submit {
+.contact-form .wpcf7-form .wpcf7-submit {
   background-color: var(--headline-color);
   border: none;
   border-radius: 5px;
