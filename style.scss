@@ -500,14 +500,14 @@ header {
         font-family: var(--text-font);
         color: var(--text-color);
         font-size: 1rem;
-        margin: 0 20px 40px 20px;
+        margin: 0 20px 10px 20px;
     }
     .wpcf7-form {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 100px;
+        // align-items: center;
+        // justify-content: center;
+        margin: 40px 0 100px 0;
 
         input {
             border-radius: 10px;
