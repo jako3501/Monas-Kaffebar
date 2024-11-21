@@ -450,11 +450,17 @@ header nav .menu ul.active {
   max-width: 100%;
   border: solid 1px var(--headline-color);
 }
+.contact-form .wpcf7-form input:focus {
+  border: solid 2px var(--headline-color);
+}
 .contact-form .wpcf7-form textarea {
   border-radius: 10px;
   padding: 5px 10px;
   max-width: 100%;
   border: solid 1px var(--headline-color);
+}
+.contact-form .wpcf7-form textarea:focus {
+  border: solid 2px var(--headline-color);
 }
 .contact-form .wpcf7-form .wpcf7-submit {
   background-color: var(--headline-color);
