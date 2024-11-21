@@ -156,11 +156,20 @@ header nav .menu ul li a {
   background-color: transparent;
   width: 80%;
 }
+.frontpage-container #products-section .woocommerce.columns-4 ul li {
+  background-color: var(--contrast-color);
+  border-radius: 0 0 20px 20px;
+}
+.frontpage-container #products-section .woocommerce.columns-4 ul li a img {
+  border-radius: 20px 20px 0 0;
+}
 .frontpage-container #products-section .woocommerce.columns-4 ul li a h2 {
+  padding-left: 10px;
   color: var(--text-color);
   padding-bottom: 25px;
 }
 .frontpage-container #products-section .woocommerce.columns-4 ul li a span {
+  padding-left: 5px;
   color: var(--text-color);
 }
 .frontpage-container #products-section .woocommerce.columns-4 ul li .add_to_cart_button {
@@ -168,6 +177,7 @@ header nav .menu ul li a {
   background-color: var(--green-color);
   margin: 0;
   padding: 0 9px 4px 9px;
+  margin-right: 10px;
   border-radius: 100%;
   float: right;
   transform: translateY(-30px);
