@@ -507,7 +507,7 @@ header {
         align-items: center;
         justify-content: center;
 
-        input {
+        input[type="text"] {
             border-radius: 10px;
             padding: 5px 10px;
             max-width: 100%;
@@ -517,7 +517,7 @@ header {
             }
         }
 
-        textarea {
+        input[type="textarea"] {
             border-radius: 10px;
             padding: 5px 10px;
             max-width: 100%;
@@ -527,7 +527,7 @@ header {
             }
         }
 
-        .wpcf7-submit {
+        input[type="submit"] {
             background-color: var(--headline-color);
             border: none;
             border-radius: 5px;
