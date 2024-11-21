@@ -384,6 +384,7 @@ footer {
 footer h4 {
   font-family: var(--title-font);
   font-size: 32px;
+  margin-bottom: 10px;
 }
 footer h5 {
   font-family: var(--text-font);

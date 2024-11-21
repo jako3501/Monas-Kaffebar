@@ -448,6 +448,7 @@ footer {
     h4 {
         font-family: var(--title-font);
         font-size: 32px;
+        margin-bottom: 10px;
     }
 
     h5 {
@@ -465,7 +466,7 @@ footer {
         display: flex;
         justify-content: space-between;
         flex-direction: row;
-        
+
         .some-svgs {
             display: flex;
             flex-direction: row;
