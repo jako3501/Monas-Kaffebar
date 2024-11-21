@@ -13,10 +13,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
 //Overwritte woocommerce content
 document.addEventListener("DOMContentLoaded", () => {
-    const addToBasketButton = document.querySelectorAll('a.add_to_cart_button');
+    const addToBasketButtons = document.querySelectorAll('a.add_to_cart_button');
 
-    if (addToBasketButton) {
+    addToBasketButtons.forEach(button => {
         // Change the text
-        addToBasketButton.innerHTML = '+';
-    }
+        button.innerHTML = '+';
+    });
 });
