@@ -49,13 +49,13 @@
                 </div>
 
                 <div class="about-image">
-                    <img src="" alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/about-img.jpg" alt="">
                 </div>
 
                 <div class="recipes-text">
                     <h3>Vil du vide, hvordan jeg laver min iskaffe?</h3>
                     <p>Tjek mine opskrifter!</p>
-                    <button>Opskrifter</button>
+                    <button class="recipes-btn">Opskrifter</button>
                 </div>
 
                 <div class="custom-designs-text">

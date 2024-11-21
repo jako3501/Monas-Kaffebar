@@ -13,6 +13,7 @@ Author: Sergio & Jakob
   --text-color-white: #ffffff;
   --excerpt-color: #979797;
   --green-color: #42936C;
+  --hover-color: #3fa93f;
 }
 
 * {
@@ -171,6 +172,16 @@ header nav .menu ul li a {
   float: right;
   transform: translateY(-30px);
 }
+.frontpage-container #products-section .woocommerce.columns-4 ul li .add_to_cart_button:hover {
+  scale: 1.05;
+  background-color: var(--hover-color);
+}
+.frontpage-container #products-section .woocommerce.columns-4 ul li:nth-child(3) {
+  margin-bottom: 0;
+}
+.frontpage-container #products-section .woocommerce.columns-4 ul li:nth-child(4) {
+  margin-bottom: 0;
+}
 .frontpage-container #products-section .all-products-btn {
   background-color: var(--green-color);
   padding: 5px 15px;
@@ -183,11 +194,32 @@ header nav .menu ul li a {
 }
 .frontpage-container #products-section .all-products-btn:hover {
   scale: 1.05;
-  background-color: rgb(70, 184, 70);
+  background-color: var(--hover-color);
 }
 .frontpage-container #about-section {
   padding-bottom: 100px;
   margin: 0 10%;
+}
+.frontpage-container #about-section .about-image img {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.frontpage-container #about-section .recipes-text {
+  margin-bottom: 75px;
+}
+.frontpage-container #about-section .recipes-text .recipes-btn {
+  background-color: var(--green-color);
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: var(--text-color-white);
+  transition: 0.2s all ease;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.frontpage-container #about-section .recipes-text .recipes-btn:hover {
+  scale: 1.05;
+  background-color: var(--hover-color);
 }
 
 .blog-container {
