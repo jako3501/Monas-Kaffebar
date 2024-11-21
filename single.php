@@ -12,9 +12,7 @@
 
         <section class="blog-post">
             <article>
-                <div class="image-box">
-                    <?php echo get_the_post_thumbnail(get_the_ID(), 'large'); ?>
-                </div>
+                <?php echo get_the_post_thumbnail(get_the_ID(), 'large'); ?>
                 <h2><?php echo $title; ?></h2>
                 <p><?php echo $date; ?> by <?php echo $author; ?></p>
                 <p><?php echo $content; ?></p>
