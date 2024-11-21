@@ -12,6 +12,7 @@ Author: Sergio & Jakob
   --text-color: #000000;
   --text-color-white: #ffffff;
   --excerpt-color: #979797;
+  --green-color: #42936C;
 }
 
 * {
@@ -131,7 +132,7 @@ header nav .menu ul li a {
   right: 10px;
 }
 .frontpage-container #products-section {
-  padding-bottom: 100px;
+  padding-bottom: 75px;
   margin: 0 10%;
 }
 .frontpage-container #products-section .search-field {
@@ -156,9 +157,33 @@ header nav .menu ul li a {
 }
 .frontpage-container #products-section .woocommerce.columns-4 ul li a h2 {
   color: var(--text-color);
+  padding-bottom: 25px;
 }
 .frontpage-container #products-section .woocommerce.columns-4 ul li a span {
   color: var(--text-color);
+}
+.frontpage-container #products-section .woocommerce.columns-4 ul li .add_to_cart_button {
+  color: var(--text-color-white);
+  background-color: var(--green-color);
+  margin: 0;
+  padding: 0 9px 4px 9px;
+  border-radius: 100%;
+  float: right;
+  transform: translateY(-30px);
+}
+.frontpage-container #products-section .all-products-btn {
+  background-color: var(--green-color);
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: var(--text-color-white);
+  transition: 0.2s all ease;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.frontpage-container #products-section .all-products-btn:hover {
+  scale: 1.05;
+  background-color: rgb(70, 184, 70);
 }
 .frontpage-container #about-section {
   padding-bottom: 100px;

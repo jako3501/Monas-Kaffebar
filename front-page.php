@@ -23,7 +23,7 @@
 
             <section id="products-section">
                 <div class="products-text">
-                    <h1>Produkter</h1>
+                    <h1>Seneste Produkter</h1>
                     <p>Udvalg af flotte og unikke kaffekopper <br> Find din ønskede design! </p>
                 </div>
                 <div class="search-field">
@@ -37,6 +37,8 @@
                 </div>
 
                 <?php echo do_shortcode('[recent_products per_page="4" columns="4"]'); ?>
+
+                <button class="all-products-btn">Alle produkter</button>
             </section>
 
             
