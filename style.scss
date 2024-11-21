@@ -426,10 +426,12 @@ header {
             padding: 5px 10px;
         }
 
-        .comment-form-auther .comment-form-email .comment-form-url .comment-form {
+        .comment-form-auther .comment-form-email .comment-form-url .comment-form input{
             display: flex;
             flex-direction: column;
             place-items: left;
+            color: var(--text-color);
+            background-color: var(--background-color)
         }
     }
 }
