@@ -302,7 +302,7 @@ header nav .menu ul li a {
 .blog-post {
   background-color: var(--background-color);
 }
-.blog-post image-box img {
+.blog-post img {
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
