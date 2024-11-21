@@ -407,7 +407,4 @@ footer .footer-blocks .block-one .block-two {
 footer .footer-blocks .block-one .block-two .some-svgs {
   display: flex;
   flex-direction: row;
-}
-footer .footer-blocks .block-one .block-two .some-svgs svg {
-  color: var(--text-color-white);
 }/*# sourceMappingURL=style.css.map */
