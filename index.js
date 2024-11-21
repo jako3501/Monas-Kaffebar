@@ -1,6 +1,7 @@
 //nav bar animation
 document.addEventListener("DOMContentLoaded", () => {
     const hamMenu = document.querySelector(".ham-menu");
+    const navMenu = document.querySelector(".menu ul");
 
     if (hamMenu) { // Ensure the element exists
         hamMenu.addEventListener('click', () => openPhoneNavMenu());
@@ -8,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const openPhoneNavMenu = () => {
         hamMenu.classList.toggle('active');
+        navMenu.classList.toggle('active');
     };
 });
 
