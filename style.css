@@ -378,13 +378,15 @@ header nav .menu ul li a {
 footer {
   background-color: var(--headline-color);
   color: var(--text-color-white);
+  padding: 20px;
+  height: 186px;
 }
 footer h4 {
   font-family: var(--title-font);
   font-size: 32px;
 }
 footer h5 {
-  font-family: var(--title-font);
+  font-family: var(--text-font);
   font-size: 24px;
 }
 footer p {

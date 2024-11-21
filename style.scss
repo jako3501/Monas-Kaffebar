@@ -443,13 +443,15 @@ header {
 footer {
     background-color: var(--headline-color);
     color: var(--text-color-white);
+    padding: 20px;
+    height: 186px;
     h4 {
         font-family: var(--title-font);
         font-size: 32px;
     }
 
     h5 {
-        font-family: var(--title-font);
+        font-family: var(--text-font);
         font-size: 24px;
     }
 
@@ -469,6 +471,5 @@ footer {
             flex-direction: column;
             padding: 10px;
         }
-
     }
 }
