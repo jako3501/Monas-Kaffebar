@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 //Overwritte woocommerce content
 document.addEventListener("DOMContentLoaded", () => {
-    const addToBasketButton = document.querySelector('a.add_to_cart_button');
+    const addToBasketButton = document.querySelectorAll('a.add_to_cart_button');
 
     if (addToBasketButton) {
         // Change the text
