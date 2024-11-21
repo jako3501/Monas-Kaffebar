@@ -50,7 +50,7 @@
                     <img src="" alt="">
                 </div>
 
-                <div class="recipes-text">ç
+                <div class="recipes-text">
                     <h3>Vil du vide, hvordan jeg laver min iskaffe?</h3>
                     <p>Tjek mine opskrifter!</p>
                     <button>Opskrifter</button>

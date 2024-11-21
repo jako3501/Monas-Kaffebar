@@ -1,3 +1,4 @@
+//nav bar animation
 document.addEventListener("DOMContentLoaded", () => {
     const hamMenu = document.querySelector(".ham-menu");
 
@@ -8,4 +9,14 @@ document.addEventListener("DOMContentLoaded", () => {
     const openPhoneNavMenu = () => {
         hamMenu.classList.toggle('active');
     };
+});
+
+//Overwritte woocommerce content
+document.addEventListener("DOMContentLoaded", () => {
+    const addToBasketButton = document.querySelector('a.add_to_cart_button');
+
+    if (addToBasketButton) {
+        // Change the text
+        addToBasketButton.innerHTML = '+';
+    }
 });
