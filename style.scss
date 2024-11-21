@@ -167,6 +167,17 @@ header {
                 z-index: 1001;
                 bottom: 10px;
                 right: 10px;
+                animation: bounceToScroll 1.2s ease;
+                animation-delay: 5s;
+            }
+
+            @keyframes bounceToScroll {
+                0% { bottom: 10px; }
+                20% { bottom: 25px; }
+                40% { bottom: 10px; }
+                60% { bottom: 10px; }
+                80% { bottom: 25px; }
+                100% { bottom: 10px; }
             }
         }
     }
@@ -242,6 +253,7 @@ header {
         }
 
         .all-products-btn {
+            box-shadow: 10px 10px 50px var(--excerpt-color);
             background-color: var(--green-color);
             padding: 5px 15px;
             border-radius: 5px;
@@ -270,6 +282,7 @@ header {
             margin-bottom: 75px;
             .recipes-btn {
                 background-color: var(--green-color);
+                box-shadow: 10px 10px 50px var(--excerpt-color);
                 padding: 5px 15px;
                 border-radius: 5px;
                 color: var(--text-color-white);
