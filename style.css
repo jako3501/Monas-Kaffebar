@@ -6,13 +6,13 @@ Author: Sergio & Jakob
 :root {
   --title-font: "DM Serif Display", serif;
   --text-font: "Nunito", serif;
-  --background-color: #F2E3D8;
-  --headline-color: #B48066;
-  --contrast-color: #D6BCAA;
+  --background-color: #f2e3d8;
+  --headline-color: #b48066;
+  --contrast-color: #d6bcaa;
   --text-color: #000000;
   --text-color-white: #ffffff;
   --excerpt-color: #979797;
-  --green-color: #42936C;
+  --green-color: #42936c;
   --hover-color: #3fa93f;
 }
 
@@ -302,9 +302,11 @@ header nav .menu ul li a {
 .blog-post {
   background-color: var(--background-color);
 }
-.blog-post img {
+.blog-post image-box {
   width: 100%;
   height: 250px;
+}
+.blog-post image-box img {
   -o-object-fit: cover;
      object-fit: cover;
   overflow: hidden;
@@ -355,7 +357,7 @@ header nav .menu ul li a {
   padding: 10px;
   max-width: 100%;
 }
-.comments-section form input {
+.comments-section form .form-submit input {
   background-color: var(--headline-color);
   border: none;
   border-radius: 5px;
@@ -364,4 +366,11 @@ header nav .menu ul li a {
   font-family: var(--text-font);
   font-size: 1rem;
   padding: 5px 10px;
+}
+.comments-section form .comment-form-auther .comment-form-email .comment-form-url .comment-form input {
+  display: flex;
+  flex-direction: column;
+  place-items: left;
+  color: var(--text-color);
+  background-color: var(--background-color);
 }/*# sourceMappingURL=style.css.map */
