@@ -403,4 +403,9 @@ footer .footer-blocks .block-one .block-two {
   display: flex;
   flex-direction: column;
   padding: 10px;
+}
+footer .footer-blocks .block-one .block-two svg {
+  color: var(--text-color-white);
+  height: 24px;
+  width: 24px;
 }/*# sourceMappingURL=style.css.map */
