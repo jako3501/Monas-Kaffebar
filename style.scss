@@ -477,9 +477,11 @@ footer {
                 flex-direction: row;
                 justify-content: space-evenly;
                 color: var(--text-color-white);
-
-                path {
-                    fill: var(--text-color-white);
+                svg {
+                    path {
+                        fill: var(--text-color-white);
+                        color: var(--text-color-white);
+                    }
                 }
             }
         }

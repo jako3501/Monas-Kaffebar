@@ -411,6 +411,7 @@ footer .footer-blocks .block-one .block-two .some-svgs {
   justify-content: space-evenly;
   color: var(--text-color-white);
 }
-footer .footer-blocks .block-one .block-two .some-svgs path {
+footer .footer-blocks .block-one .block-two .some-svgs svg path {
   fill: var(--text-color-white);
+  color: var(--text-color-white);
 }/*# sourceMappingURL=style.css.map */
