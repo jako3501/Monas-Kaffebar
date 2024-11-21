@@ -462,6 +462,54 @@ header {
     }
 }
 
+.contact-form {
+    h1 {
+        font-family: var(--title-font);
+        color: var(--headline-color);
+        font-size: 2rem;
+        margin: 40px 20px 20px 20px;
+    }
+    p {
+        font-family: var(--text-font);
+        color: var(--text-color);
+        font-size: 1rem;
+        margin: 0 20px 10px 20px;
+    }
+    .wpcf7-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        input {
+            border-radius: 10px;
+            padding: 10px;
+            max-width: 100%;
+            margin: 10px;
+        }
+
+        textarea {
+            border-radius: 10px;
+            padding: 10px;
+            max-width: 100%;
+            margin: 10px;
+        }
+
+        .submit {
+            background-color: var(--headline-color);
+            border: none;
+            border-radius: 5px;
+            color: var(--text-color-white);
+            cursor: pointer;
+            font-family: var(--text-font);
+            font-size: 1rem;
+            padding: 5px 10px;
+            margin: 10px;
+        }
+
+    }
+}
+
 footer {
     background-color: var(--headline-color);
     color: var(--text-color-white);
