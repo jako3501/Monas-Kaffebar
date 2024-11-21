@@ -440,7 +440,7 @@ header nav .menu ul.active {
   font-family: var(--text-font);
   color: var(--text-color);
   font-size: 1rem;
-  margin: 0 20px 10px 20px;
+  margin: 0 20px 40px 20px;
 }
 .contact-form .wpcf7-form {
   display: flex;
@@ -452,7 +452,7 @@ header nav .menu ul.active {
 .contact-form .wpcf7-form input {
   border-radius: 10px;
   padding: 5px 10px;
-  max-width: 100%;
+  max-width: 80%;
   border: solid 1px var(--headline-color);
 }
 .contact-form .wpcf7-form input:focus {
@@ -461,7 +461,7 @@ header nav .menu ul.active {
 .contact-form .wpcf7-form textarea {
   border-radius: 10px;
   padding: 5px 10px;
-  max-width: 100%;
+  max-width: 83%;
   border: solid 1px var(--headline-color);
 }
 .contact-form .wpcf7-form textarea:focus {

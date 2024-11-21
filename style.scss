@@ -500,7 +500,7 @@ header {
         font-family: var(--text-font);
         color: var(--text-color);
         font-size: 1rem;
-        margin: 0 20px 10px 20px;
+        margin: 0 20px 40px 20px;
     }
     .wpcf7-form {
         display: flex;
@@ -512,7 +512,7 @@ header {
         input {
             border-radius: 10px;
             padding: 5px 10px;
-            max-width: 100%;
+            max-width: 80%;
             border: solid 1px var(--headline-color);
             &:focus {
                 border: solid 2px var(--headline-color);
@@ -522,7 +522,7 @@ header {
         textarea {
             border-radius: 10px;
             padding: 5px 10px;
-            max-width: 100%;
+            max-width: 83%;
             border: solid 1px var(--headline-color);
             &:focus {
                 border: solid 2px var(--headline-color);
