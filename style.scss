@@ -489,6 +489,7 @@ header {
 }
 
 .contact-form {
+    padding: 0 40px;
     h1 {
         font-family: var(--title-font);
         color: var(--headline-color);
@@ -507,7 +508,7 @@ header {
         align-items: center;
         justify-content: center;
 
-        input[type="text"] {
+        input {
             border-radius: 10px;
             padding: 5px 10px;
             max-width: 100%;
@@ -517,7 +518,7 @@ header {
             }
         }
 
-        input[type="textarea"] {
+        textarea {
             border-radius: 10px;
             padding: 5px 10px;
             max-width: 100%;
@@ -527,7 +528,7 @@ header {
             }
         }
 
-        input[type="submit"] {
+        .wpcf7-submit {
             background-color: var(--headline-color);
             border: none;
             border-radius: 5px;

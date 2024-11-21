@@ -427,6 +427,9 @@ header nav .menu ul.active {
   padding-left: 5px;
 }
 
+.contact-form {
+  padding: 0 40px;
+}
 .contact-form h1 {
   font-family: var(--title-font);
   color: var(--headline-color);
@@ -445,25 +448,25 @@ header nav .menu ul.active {
   align-items: center;
   justify-content: center;
 }
-.contact-form .wpcf7-form input[type=text] {
+.contact-form .wpcf7-form input {
   border-radius: 10px;
   padding: 5px 10px;
   max-width: 100%;
   border: solid 1px var(--headline-color);
 }
-.contact-form .wpcf7-form input[type=text]:focus {
+.contact-form .wpcf7-form input:focus {
   border: solid 2px var(--headline-color);
 }
-.contact-form .wpcf7-form input[type=textarea] {
+.contact-form .wpcf7-form textarea {
   border-radius: 10px;
   padding: 5px 10px;
   max-width: 100%;
   border: solid 1px var(--headline-color);
 }
-.contact-form .wpcf7-form input[type=textarea]:focus {
+.contact-form .wpcf7-form textarea:focus {
   border: solid 2px var(--headline-color);
 }
-.contact-form .wpcf7-form input[type=submit] {
+.contact-form .wpcf7-form .wpcf7-submit {
   background-color: var(--headline-color);
   border: none;
   border-radius: 5px;
