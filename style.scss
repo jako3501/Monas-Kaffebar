@@ -439,3 +439,36 @@ header {
         }
     }
 }
+
+footer {
+    background-color: var(--headline-color);
+    color: var(--text-color-white);
+    h4 {
+        font-family: var(--title-font);
+        font-size: 32px;
+    }
+
+    h5 {
+        font-family: var(--title-font);
+        font-size: 24px;
+    }
+
+    p {
+        color: var(--text-color-white);
+        font-family: var(--text-font);
+        font-size: 13px;
+    }
+
+    .footer-blocks {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+
+        .block-one .block-two {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+        }
+
+    }
+}

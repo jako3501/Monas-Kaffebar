@@ -373,4 +373,32 @@ header nav .menu ul li a {
   background-color: var(--background-color);
   border-radius: 5px;
   padding-left: 5px;
+}
+
+footer {
+  background-color: var(--headline-color);
+  color: var(--text-color-white);
+}
+footer h4 {
+  font-family: var(--title-font);
+  font-size: 32px;
+}
+footer h5 {
+  font-family: var(--title-font);
+  font-size: 24px;
+}
+footer p {
+  color: var(--text-color-white);
+  font-family: var(--text-font);
+  font-size: 13px;
+}
+footer .footer-blocks {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+footer .footer-blocks .block-one .block-two {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */
