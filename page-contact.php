@@ -5,7 +5,7 @@
 ?>
 
 <?php get_header(); ?>
-<main>
+<main class="contact-form">
     <h1>Lav din egen kop</h1>
     <p>For at lave din egen kop, skal du blot tage kontakt til os 
         ved at udfylde denne form. Derefter finder vi ud af
