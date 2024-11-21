@@ -2,7 +2,7 @@
 
 <footer>
     <h4>Kontakt</h4>
-    <div class="fotter-blocks">
+    <div class="footer-blocks">
         <div class="block-one">
             <h5>E-mail</h5>
             <p>monaskaffebar@outlook.dk</p>
