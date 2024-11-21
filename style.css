@@ -387,7 +387,7 @@ footer h4 {
 }
 footer h5 {
   font-family: var(--text-font);
-  font-size: 24px;
+  font-size: 20px;
 }
 footer p {
   color: var(--text-color-white);
@@ -410,4 +410,7 @@ footer .footer-blocks .block-one .block-two .some-svgs {
   flex-direction: row;
   justify-content: space-evenly;
   color: var(--text-color-white);
+}
+footer .footer-blocks .block-one .block-two .some-svgs path {
+  fill: var(--text-color-white);
 }/*# sourceMappingURL=style.css.map */
