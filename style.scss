@@ -415,7 +415,7 @@ header {
             max-width: 100%;
         }
 
-        .submit input {
+        .form-submit input {
             background-color: var(--headline-color);
             border: none;
             border-radius: 5px;
@@ -424,6 +424,12 @@ header {
             font-family: var(--text-font);
             font-size: 1rem;
             padding: 5px 10px;
+        }
+
+        .comment-form-auther .comment-form-email .comment-form-url .comment-form {
+            display: flex;
+            flex-direction: column;
+            place-items: left;
         }
     }
 }
