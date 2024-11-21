@@ -1,3 +1,9 @@
+<?php
+/**
+ * Template Name: Contact
+ */
+?>
+
 <?php get_header ?>
 <main>
     <h1>Lav din egen kop</h1>
