@@ -404,7 +404,11 @@ footer .footer-blocks .block-one .block-two {
   flex-direction: column;
   padding: 10px;
 }
-footer .footer-blocks .block-one .block-two svg {
+footer .footer-blocks .block-one .block-two .some-svgs {
+  display: flex;
+  flex-direction: row;
+}
+footer .footer-blocks .block-one .block-two .some-svgs svg {
   color: var(--text-color-white);
   height: 24px;
   width: 24px;

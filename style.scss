@@ -471,10 +471,14 @@ footer {
             flex-direction: column;
             padding: 10px;
 
-            svg {
-                color: var(--text-color-white);
-                height: 24px;
-                width: 24px;
+            .some-svgs {
+                display: flex;
+                flex-direction: row;
+                svg {
+                    color: var(--text-color-white);
+                    height: 24px;
+                    width: 24px;
+                }
             }
         }
     }
