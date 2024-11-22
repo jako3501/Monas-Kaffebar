@@ -633,6 +633,14 @@ form.checkout.woocommerce-checkout{
     padding-right: 5%;
 }
 
+//Search
+.frontpage-container #products-section .search-field input{
+    background-color: var(--headline-color);
+    width: 100%;
+}
+
+//Footer
+
 footer {
     background-color: var(--headline-color);
     color: var(--text-color-white);
