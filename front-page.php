@@ -15,7 +15,7 @@
                 <section id="hero-section">
                     <div class="background-image">
 
-                        <img src="<?php echo $hero_image ?>" alt="">
+                        <img src="<?php echo esc_url($hero_image['url']); ?>" alt="">
                     </div>
 
                     <div class="hero-visuals">
@@ -64,7 +64,7 @@
                     </div>
 
                     <div class="about-image">
-                        <img src="<?php echo $mona_billede ?>" alt="">
+                        <img src="<?php echo esc_url($mona_billede['url']); ?>" alt="">
                     </div>
 
                     <div class="recipes-text">
