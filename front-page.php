@@ -54,7 +54,7 @@
 
                     <?php echo do_shortcode('[recent_products per_page="4" columns="4"]'); ?>
 
-                    <button class="all-products-btn">Alle produkter</button>
+                    <button class="all-products-btn"><a href="<?php echo get_permalink( get_page_by_path('shop') ); ?>">Alle produkter</a></button>
                 </section>
 
 
