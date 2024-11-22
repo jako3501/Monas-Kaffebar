@@ -518,7 +518,7 @@ form .checkout {
   border-radius: 20px 20px 0 0;
 }
 .woocommerce ul.products li a h2 {
-  padding-left: 10px;
+  padding-left: 10px !important;
   color: var(--text-color);
   padding-bottom: 25px;
 }
@@ -535,6 +535,7 @@ form .checkout {
   border-radius: 100%;
   float: right;
   transform: translateY(-30px);
+  margin-top: 0 !important;
 }
 .woocommerce ul.products li .add_to_cart_button:hover {
   scale: 1.05;
