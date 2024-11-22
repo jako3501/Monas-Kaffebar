@@ -503,7 +503,7 @@ header nav .menu ul.active {
   text-decoration: none;
 }
 
-form .checkout {
+form.checkout.woocommerce-checkout {
   padding: 0 5% 50px 5%;
 }
 
