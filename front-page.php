@@ -65,7 +65,7 @@
                     </div>
 
                     <div class="about-image">
-                        <img src="<?php echo esc_url($mona_billede['sizes']["large"]); ?>" alt="">
+                        <img src="<?php echo esc_url($mona_billede['sizes']["medium"]); ?>" alt="">
                     </div>
 
                     <div class="recipes-text">
