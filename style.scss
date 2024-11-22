@@ -634,7 +634,15 @@ form.checkout.woocommerce-checkout{
 }
 
 //Search
-.frontpage-container #products-section .search-field input{
+.dgwt-wcas-style-pirx .dgwt-wcas-sf-wrapp{
+    background-color: transparent;
+}
+
+.dgwt-wcas-search-form{
+    margin: 20px 0;
+}
+
+.dgwt-wcas-style-pirx .dgwt-wcas-sf-wrapp input[type=search].dgwt-wcas-search-input{
     background-color: var(--headline-color);
     width: 100%;
 }
