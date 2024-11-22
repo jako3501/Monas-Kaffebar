@@ -197,7 +197,7 @@ header nav .menu ul.active {
 }
 .frontpage-container #products-section .woocommerce.columns-4 ul li {
   background-color: var(--contrast-color);
-  border-radius: 0 0 20px 20px;
+  border-radius: 20px;
 }
 .frontpage-container #products-section .woocommerce.columns-4 ul li a img {
   border-radius: 20px 20px 0 0;
@@ -224,6 +224,12 @@ header nav .menu ul.active {
 .frontpage-container #products-section .woocommerce.columns-4 ul li .add_to_cart_button:hover {
   scale: 1.05;
   background-color: var(--hover-color);
+}
+.frontpage-container #products-section .woocommerce.columns-4 ul li .added_to_cart {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: var(--green-color);
 }
 .frontpage-container #products-section .woocommerce.columns-4 ul li:nth-child(3) {
   margin-bottom: 0;

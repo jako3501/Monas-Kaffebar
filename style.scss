@@ -225,7 +225,7 @@ header {
             ul {
                 li {
                     background-color: var(--contrast-color);
-                    border-radius: 0 0 20px 20px;
+                    border-radius: 20px;
                     a {
                         img {
                             border-radius: 20px 20px 0 0;
@@ -253,6 +253,12 @@ header {
                     .add_to_cart_button:hover {
                         scale: 1.05;
                         background-color: var(--hover-color);
+                    }
+                    .added_to_cart{
+                        display: flex;
+                        justify-content: center;
+                        text-align: center;
+                        color: var(--green-color);
                     }
                 }
                 li:nth-child(3) {
