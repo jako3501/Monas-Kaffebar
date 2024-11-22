@@ -14,8 +14,7 @@
             <div class="frontpage-container">
                 <section id="hero-section">
                     <div class="background-image">
-                        <?php print_r($hero_image["sizes"]) ?>
-                        <img src="<?php echo esc_url($hero_image['url']); ?>" alt="">
+                        <img src="<?php echo esc_url($hero_image['sizes']["large"]); ?>" alt="">
                     </div>
 
                     <div class="hero-visuals">
@@ -66,7 +65,7 @@
                     </div>
 
                     <div class="about-image">
-                        <img src="<?php echo esc_url($mona_billede['url']); ?>" alt="">
+                        <img src="<?php echo esc_url($mona_billede['sizes']["large"]); ?>" alt="">
                     </div>
 
                     <div class="recipes-text">
