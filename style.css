@@ -193,7 +193,7 @@ header nav .menu ul.active {
   border-left: 0;
   border-right: 0;
   background-color: transparent;
-  width: 80%;
+  width: 70%;
 }
 .frontpage-container #products-section .woocommerce.columns-4 ul li {
   background-color: var(--contrast-color);
@@ -480,6 +480,27 @@ header nav .menu ul.active {
   font-family: var(--text-font);
   font-size: 1rem;
   padding: 5px 10px;
+}
+
+.woocomerce-cart-form {
+  padding: 50px 5% 0 5%;
+}
+
+.cart-collaterals {
+  padding: 0 5%;
+}
+
+.woocommerce-cart .wc-proceed-to-checkout {
+  padding: 5px 0;
+  background-color: var(--headline-color);
+  margin: 20px 0 50px 0;
+  border-radius: 5px;
+}
+
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button {
+  margin: 0;
+  color: var(--text-color-white);
+  text-decoration: none;
 }
 
 footer {
