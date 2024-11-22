@@ -569,7 +569,7 @@ form.checkout.woocommerce-checkout {
 }
 
 .dgwt-wcas-style-pirx .dgwt-wcas-sf-wrapp input[type=search].dgwt-wcas-search-input {
-  background-color: var(--headline-color);
+  background-color: var(--contrast-color);
   width: 100%;
 }
 
