@@ -14,7 +14,7 @@
             <div class="frontpage-container">
                 <section id="hero-section">
                     <div class="background-image">
-
+                        <?php print_r($hero_image["sizes"]) ?>
                         <img src="<?php echo esc_url($hero_image['url']); ?>" alt="">
                     </div>
 
