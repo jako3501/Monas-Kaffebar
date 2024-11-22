@@ -64,7 +64,7 @@
                     </div>
 
                     <div class="about-image">
-                        <img src="<?php echo esc_url($mona_billede['url, medium']); ?>" alt="">
+                        <img src="<?php echo wp_get_attachment_image($image_id, 'large') ?>" alt="">
                     </div>
 
                     <div class="recipes-text">
