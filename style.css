@@ -14,6 +14,7 @@ Author: Sergio & Jakob
   --excerpt-color: #979797;
   --green-color: #42936c;
   --hover-color: #3fa93f;
+  --container-padding: 0 5%;
 }
 
 * {
@@ -110,6 +111,14 @@ header nav .menu ul li a {
 }
 header nav .menu ul.active {
   right: 0;
+}
+
+.page-item-11 {
+  display: none;
+}
+
+.page-item-12 {
+  display: none;
 }
 
 .frontpage-container #hero-section {
@@ -248,6 +257,10 @@ header nav .menu ul.active {
   display: flex;
   width: 100%;
   justify-content: center;
+}
+.frontpage-container #products-section .all-products-btn a {
+  color: var(--text-color-white);
+  text-decoration: none;
 }
 .frontpage-container #products-section .all-products-btn:hover {
   scale: 1.05;
@@ -487,7 +500,7 @@ header nav .menu ul.active {
 }
 
 .cart-collaterals {
-  padding: 0 5%;
+  padding: var(--container-padding);
 }
 
 .woocommerce-cart .wc-proceed-to-checkout {
@@ -508,7 +521,7 @@ form.checkout.woocommerce-checkout {
 }
 
 .woocommerce ul.products {
-  padding: 0 5%;
+  padding: var(--container-padding);
 }
 .woocommerce ul.products li {
   background-color: var(--contrast-color);
@@ -558,6 +571,10 @@ form.checkout.woocommerce-checkout {
 
 .woocommerce-ordering {
   padding-right: 5%;
+}
+
+.dgwt-wcas-search-wrapp {
+  padding: var(--container-padding);
 }
 
 .dgwt-wcas-style-pirx .dgwt-wcas-sf-wrapp {

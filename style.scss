@@ -8,6 +8,7 @@ Author: Sergio & Jakob
 :root {
     --title-font: "DM Serif Display", serif;
     --text-font: "Nunito", serif;
+
     --background-color: #f2e3d8;
     --headline-color: #b48066;
     --contrast-color: #d6bcaa;
@@ -16,6 +17,8 @@ Author: Sergio & Jakob
     --excerpt-color: #979797;
     --green-color: #42936c;
     --hover-color: #3fa93f;
+
+    --container-padding: 0 5%;
 }
 
 * {
@@ -129,6 +132,16 @@ header {
     }
 }
 
+.page-item-11{ //checkout side
+    display: none;
+}
+
+.page-item-12{ //my-account side
+    display: none;
+}
+
+
+//Frontpage
 .frontpage-container {
     #hero-section {
         height: 100vh;
@@ -281,6 +294,10 @@ header {
             display: flex;
             width: 100%;
             justify-content: center;
+            a{
+                color: var(--text-color-white);
+                text-decoration: none;
+            }
         }
         .all-products-btn:hover {
             scale: 1.05;
@@ -555,7 +572,7 @@ header {
 }
 
 .cart-collaterals{
-    padding: 0 5%;
+    padding: var(--container-padding);
 }
 
 .woocommerce-cart .wc-proceed-to-checkout {
@@ -579,7 +596,7 @@ form.checkout.woocommerce-checkout{
 // Shop
 
 .woocommerce ul.products{
-    padding: 0 5%;
+    padding: var(--container-padding);
     li {
         background-color: var(--contrast-color);
         border-radius: 20px;
@@ -634,6 +651,10 @@ form.checkout.woocommerce-checkout{
 }
 
 //Search
+.dgwt-wcas-search-wrapp {
+    padding: var(--container-padding);
+}
+
 .dgwt-wcas-style-pirx .dgwt-wcas-sf-wrapp{
     background-color: transparent;
 }
