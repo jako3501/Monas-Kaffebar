@@ -50,6 +50,11 @@ header {
         z-index: 100;
         position: relative;
         background-color: var(--headline-color);
+        overflow: hidden;
+        svg {
+            scale: 0.5;
+            transform: translate(-120px, -3px);
+        }
         .ham-menu {
             display: flex;
             flex-direction: column;
