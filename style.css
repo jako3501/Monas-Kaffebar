@@ -319,7 +319,7 @@ header nav .menu ul.active {
   scale: 1.05;
   background-color: var(--hover-color);
 }
-.frontpage-container #about-section .custom-design-text .custom-btn {
+.frontpage-container #about-section .custom-designs-text .custom-btn {
   background-color: var(--green-color);
   box-shadow: 10px 10px 50px var(--excerpt-color);
   padding: 5px 15px;
@@ -330,7 +330,7 @@ header nav .menu ul.active {
   width: 100%;
   justify-content: center;
 }
-.frontpage-container #about-section .custom-design-text .custom-btn:hover {
+.frontpage-container #about-section .custom-designs-text .custom-btn:hover {
   scale: 1.05;
   background-color: var(--hover-color);
 }
