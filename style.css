@@ -573,6 +573,18 @@ form.checkout.woocommerce-checkout {
   padding-right: 5%;
 }
 
+.woocommerce div.product {
+  padding: 0 5%;
+}
+
+span.woocommerce-Price-amount.amount {
+  color: var(--text-color);
+}
+
+.woocommerce div.product form.cart .button {
+  color: var(--headline-color);
+}
+
 .dgwt-wcas-search-wrapp {
   padding: var(--container-padding);
 }
