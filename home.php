@@ -1,11 +1,11 @@
 <?php get_header() ?>
 
 <main>
-    <section class="blog-container ">
+    
         <div class="blog-header">
             <h1>Recipies</h1>
         </div>
-
+        <section class="blog-container ">
 
         <?php if (have_posts()): ?>
             <?php while (have_posts()):

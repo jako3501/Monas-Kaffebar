@@ -320,6 +320,13 @@ header nav .menu ul.active {
   background-color: var(--hover-color);
 }
 
+.blog-header h1 {
+  font-family: var(--title-font);
+  color: var(--headline-color);
+  font-size: 2rem;
+  margin: 40px 10px 20px 20px;
+}
+
 .blog-container {
   display: flex;
   flex-wrap: wrap;
@@ -328,17 +335,12 @@ header nav .menu ul.active {
   max-width: 1200px;
   background-color: var(--background-color);
 }
-.blog-container h1 {
-  font-family: var(--title-font);
-  color: var(--headline-color);
-  font-size: 2rem;
-  margin: 40px 10px 20px 20px;
-}
 .blog-container .blog-content {
   background-color: var(--text-color-white);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 10px 0 50px 0;
   width: 100%;
+  height: 265px;
   filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.2431372549));
 }
 .blog-container .blog-content h2 {
@@ -670,6 +672,22 @@ footer .footer-blocks .block-one .block-two {
   margin-top: 20px;
 }
 
+@media only screen and (min-width: 430px) {
+  .blog-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .blog-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .blog-container .blog-content {
+    max-width: 430px;
+  }
+}
 @media only screen and (min-width: 1000px) {
   header nav {
     justify-content: space-between;
@@ -701,5 +719,13 @@ footer .footer-blocks .block-one .block-two {
   }
   .dgwt-wcas-search-wrapp {
     margin: 0;
+  }
+  .blog-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .blog-container .blog-content {
+    margin: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
