@@ -320,6 +320,13 @@ header nav .menu ul.active {
   background-color: var(--hover-color);
 }
 
+.blog-header h1 {
+  font-family: var(--title-font);
+  color: var(--headline-color);
+  font-size: 2rem;
+  margin: 40px 10px 20px 20px;
+}
+
 .blog-container {
   display: flex;
   flex-wrap: wrap;
@@ -327,12 +334,6 @@ header nav .menu ul.active {
   margin: 0 auto;
   max-width: 1200px;
   background-color: var(--background-color);
-}
-.blog-container h1 {
-  font-family: var(--title-font);
-  color: var(--headline-color);
-  font-size: 2rem;
-  margin: 40px 10px 20px 20px;
 }
 .blog-container .blog-content {
   background-color: var(--text-color-white);
