@@ -55,9 +55,6 @@ header nav .nav-logo {
   height: 100px;
   width: 170px;
 }
-header nav .nav-logo svg {
-  overflow: hidden;
-}
 header nav .icons-box {
   display: flex;
   align-items: center;
