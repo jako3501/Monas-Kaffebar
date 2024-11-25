@@ -52,6 +52,10 @@ header {
         background-color: var(--headline-color);
 
         .nav-logo {
+            display: flex;
+            justify-content: center;
+            place-items: center;
+            margin-left: 30px;
             overflow: hidden;
             height: 80px;
             width: 150px;
