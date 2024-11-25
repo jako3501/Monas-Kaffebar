@@ -810,14 +810,15 @@ footer {
             justify-content: space-between;
             .menu{
                 order: 1;
-                margin-right: 5%;
+                margin-right: 25%;
                 ul{
                     flex-direction: row;
                     position: relative;
                     background-color: transparent;
                     height: 80px;
                     right: 0;
-                    gap: 10px;
+                    gap: 35px;
+                    padding-left: 35px;
                     li{
                         a{
                             color: var(--text-color-white);
