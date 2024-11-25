@@ -718,8 +718,9 @@ span.woocommerce-Price-amount.amount {
     color: var(--text-color);
 }
 
-.woocommerce div.product form.cart .button {
-    color: var(--headline-color);
+.woocommerce div.product form.cart .button{
+    background-color: var(--headline-color);
+    color: var(--text-color-white);
 }
 
 //Search
