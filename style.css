@@ -662,13 +662,18 @@ footer .footer-blocks .block-one .block-two {
 
 @media only screen and (min-width: 1000px) {
   header nav {
-    height: 80px;
-    min-width: 100%;
-    display: flex;
-    align-items: center;
     justify-content: flex-end;
-    z-index: 100;
+  }
+  header nav .menu {
+    order: 1;
+    margin-right: 5%;
+  }
+  header nav .menu ul {
+    flex-direction: row;
     position: relative;
-    background-color: var(--headline-color);
+    background-color: transparent;
+    height: 80px;
+    right: 0;
+    gap: 10px;
   }
 }/*# sourceMappingURL=style.css.map */

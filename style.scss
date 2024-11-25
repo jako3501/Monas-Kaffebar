@@ -797,14 +797,19 @@ footer {
 @media only screen and (min-width: 1000px) {
     header {
         nav {
-            height: 80px;
-            min-width: 100%;
-            display: flex;
-            align-items: center;
             justify-content: flex-end;
-            z-index: 100;
-            position: relative;
-            background-color: var(--headline-color);
+            .menu{
+                order: 1;
+                margin-right: 5%;
+                ul{
+                    flex-direction: row;
+                    position: relative;
+                    background-color: transparent;
+                    height: 80px;
+                    right: 0;
+                    gap: 10px;
+                }
+            }
         }
     }
 }
