@@ -32,7 +32,7 @@ body {
     overflow-x: hidden;
 }
 
-body.home nav{
+body.home nav {
     //different atributtes on frontpage
     justify-content: flex-end;
 }
@@ -150,7 +150,8 @@ header {
                         text-decoration: none;
                         transition: 0.3s ease;
                     }
-                    a:hover{
+
+                    a:hover {
                         color: var(--excerpt-color);
                     }
                 }
@@ -174,7 +175,7 @@ header {
     display: none;
 }
 
-.page-item-65{
+.page-item-65 {
     //frontpage
     order: -1;
 }
@@ -732,7 +733,7 @@ span.woocommerce-Price-amount.amount {
     color: var(--text-color);
 }
 
-.woocommerce div.product form.cart .button{
+.woocommerce div.product form.cart .button {
     background-color: var(--headline-color);
     color: var(--text-color-white);
 }
@@ -804,32 +805,50 @@ footer {
     }
 }
 
+@media only screen and (min-width: 430px) {
+    .blog-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .blog-content {
+            max-width: 430px;
+        }
+    }
+}
+
 @media only screen and (min-width: 1000px) {
     header {
         nav {
             justify-content: space-between;
-            .menu{
+
+            .menu {
                 order: 1;
                 margin-right: 5%;
-                ul{
+
+                ul {
                     flex-direction: row;
                     position: relative;
                     background-color: transparent;
                     height: 80px;
                     right: 0;
                     gap: 10px;
-                    li{
-                        a{
+
+                    li {
+                        a {
                             color: var(--text-color-white);
                         }
                     }
-                    .page-item-10{//basket
+
+                    .page-item-10 {
+                        //basket
                         display: none;
                     }
                 }
             }
-            .icons-box{
-                .ham-menu{
+
+            .icons-box {
+                .ham-menu {
                     display: none;
                 }
             }
