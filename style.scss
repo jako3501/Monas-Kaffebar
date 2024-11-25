@@ -809,6 +809,12 @@ footer {
 }
 
 @media only screen and (min-width: 430px) {
+
+    .blog-header {
+        display: flex;
+        align-items: center;
+    }
+
     .blog-container {
         display: flex;
         flex-direction: column;
@@ -858,10 +864,7 @@ footer {
         }
     }
 
-    .blog-header {
-        display: flex;
-        align-items: center;
-    }
+    
 
     .blog-container {
         display: flex;

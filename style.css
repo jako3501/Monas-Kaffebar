@@ -672,6 +672,10 @@ footer .footer-blocks .block-one .block-two {
 }
 
 @media only screen and (min-width: 430px) {
+  .blog-header {
+    display: flex;
+    align-items: center;
+  }
   .blog-container {
     display: flex;
     flex-direction: column;
@@ -707,10 +711,6 @@ footer .footer-blocks .block-one .block-two {
   }
   header nav .icons-box .ham-menu {
     display: none;
-  }
-  .blog-header {
-    display: flex;
-    align-items: center;
   }
   .blog-container {
     display: flex;
