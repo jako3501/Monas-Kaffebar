@@ -813,6 +813,7 @@ footer {
     .blog-header {
         display: flex;
         align-items: center;
+        justify-content: center;
     }
 
     .blog-container {
@@ -863,8 +864,6 @@ footer {
             }
         }
     }
-
-    
 
     .blog-container {
         display: flex;

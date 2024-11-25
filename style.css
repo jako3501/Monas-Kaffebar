@@ -675,6 +675,7 @@ footer .footer-blocks .block-one .block-two {
   .blog-header {
     display: flex;
     align-items: center;
+    justify-content: center;
   }
   .blog-container {
     display: flex;
