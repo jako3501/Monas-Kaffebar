@@ -48,6 +48,8 @@ header nav {
 }
 header nav nav-logo {
   overflow: hidden;
+  height: 80px;
+  width: 150px;
 }
 header nav nav-logo svg {
   scale: 0.5;
