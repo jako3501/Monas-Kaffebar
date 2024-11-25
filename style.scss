@@ -810,6 +810,7 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
 
         .blog-content {
             max-width: 430px;
@@ -851,6 +852,16 @@ footer {
                     display: none;
                 }
             }
+        }
+    }
+
+    .blog-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .blog-content {
+            margin: 20px;
         }
     }
 }

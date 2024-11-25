@@ -675,6 +675,7 @@ footer .footer-blocks .block-one .block-two {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
   .blog-container .blog-content {
     max-width: 430px;
@@ -705,5 +706,13 @@ footer .footer-blocks .block-one .block-two {
   }
   header nav .icons-box .ham-menu {
     display: none;
+  }
+  .blog-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .blog-container .blog-content {
+    margin: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
