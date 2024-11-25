@@ -122,6 +122,10 @@ header nav .menu ul li {
 header nav .menu ul li a {
   color: var(--text-color);
   text-decoration: none;
+  transition: 0.3s ease;
+}
+header nav .menu ul li a:hover {
+  color: var(--excerpt-color);
 }
 header nav .menu ul.active {
   right: 0;
