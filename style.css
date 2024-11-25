@@ -686,7 +686,7 @@ footer .footer-blocks .block-one .block-two {
   }
   header nav .menu {
     order: 1;
-    margin-right: 5%;
+    margin-right: 25%;
   }
   header nav .menu ul {
     flex-direction: row;
@@ -694,7 +694,8 @@ footer .footer-blocks .block-one .block-two {
     background-color: transparent;
     height: 80px;
     right: 0;
-    gap: 10px;
+    gap: 35px;
+    padding-left: 35px;
   }
   header nav .menu ul li a {
     color: var(--text-color-white);
