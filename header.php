@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta description="Mona's Kaffebar is a website where you can purchase cups for Ice coffee, you can also find a variety of coffee related recipies">
+    <meta name="keywords" content="Kaffe opskrift, Kaffe kop, Iskaffe">
+    <meta name="author" content="Mona's Kaffebar">
     <title><?php bloginfo("name") ?></title>
     <?php wp_head() ?>
 </head>
