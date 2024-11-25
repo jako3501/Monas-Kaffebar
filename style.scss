@@ -117,41 +117,41 @@ header {
                     }
                 }
             }
+        }
 
+        .menu {
+            ul {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 0;
+                right: 0;
+                margin: 0;
+                background-color: var(--contrast-color);
+                height: 100vh;
+                width: 100%;
+                right: -100%;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                font-size: 20px;
+                transition: 0.3s ease;
 
-            .menu {
-                ul {
-                    display: flex;
-                    flex-direction: column;
-                    position: absolute;
-                    top: 0;
-                    right: 0;
-                    margin: 0;
-                    background-color: var(--contrast-color);
-                    height: 100vh;
-                    width: 100%;
-                    right: -100%;
-                    align-items: center;
-                    justify-content: center;
-                    text-align: center;
-                    font-size: 20px;
-                    transition: 0.3s ease;
+                li {
+                    list-style-type: none;
 
-                    li {
-                        list-style-type: none;
-
-                        a {
-                            color: var(--text-color);
-                            text-decoration: none;
-                        }
+                    a {
+                        color: var(--text-color);
+                        text-decoration: none;
                     }
                 }
+            }
 
-                ul.active {
-                    right: 0;
-                }
+            ul.active {
+                right: 0;
             }
         }
+
     }
 }
 

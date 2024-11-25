@@ -98,7 +98,7 @@ header nav .icons-box .ham-menu.active span:nth-child(3) {
   top: 50%;
   transform: translate(-50%, -50%) rotate(-45deg);
 }
-header nav .icons-box .menu ul {
+header nav .menu ul {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -115,14 +115,14 @@ header nav .icons-box .menu ul {
   font-size: 20px;
   transition: 0.3s ease;
 }
-header nav .icons-box .menu ul li {
+header nav .menu ul li {
   list-style-type: none;
 }
-header nav .icons-box .menu ul li a {
+header nav .menu ul li a {
   color: var(--text-color);
   text-decoration: none;
 }
-header nav .icons-box .menu ul.active {
+header nav .menu ul.active {
   right: 0;
 }
 
