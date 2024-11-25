@@ -53,7 +53,7 @@
 
                     <?php echo do_shortcode('[recent_products per_page="4" columns="4"]'); ?>
 
-                    <button class="all-products-btn"><a href="<?php echo get_permalink( get_page_by_path('shop') ); ?>">Alle produkter</a></button>
+                    <button class="all-products-btn frontpage-button"><a href="<?php echo get_permalink( get_page_by_path('shop') ); ?>">Alle produkter</a></button>
                 </section>
 
 
@@ -71,13 +71,13 @@
                     <div class="recipes-text">
                         <h3>Vil du vide, hvordan jeg laver min iskaffe?</h3>
                         <p>Tjek mine opskrifter!</p>
-                        <button class="recipes-btn">Opskrifter</button>
+                        <button class="recipes-btn frontpage-button">Opskrifter</button>
                     </div>
 
                     <div class="custom-designs-text">
                         <h1>Custom Designs</h1>
                         <p><?php echo $custom_design_description ?></p>
-                        
+                        <button class="custom-btn frontpage-button">Custom Designs</button>
 
                         <!-- .. forms for recipes -->
                     </div>
