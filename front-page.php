@@ -6,7 +6,7 @@
         <?php
         $hero_image = get_field('hero-image');
         $mona_billede = get_field('mona-billede');
-        $product_description = get_field('products_description');
+        $product_description = get_field('products-description');
         $custom_design_description = get_field('custom-designs-description');
         ?>
 
