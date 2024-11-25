@@ -25,17 +25,7 @@
                     </svg>
                 </div>
             <?php endif; ?>
-            
-            <?php
-            wp_nav_menu(
-                array(
-                    'menu' => 'primary',
-                    'container' => '',
-                    'theme_location' => 'primary',
-                    'items_wrap' => '<ul id="" class="">%3$s</ul>'
-                )
-            );
-            ?>
+        
 
             <div class="icons-box">
                 <div class="basket-icon">
@@ -53,6 +43,17 @@
                     <span></span>
                     <span></span>
                 </div>
+
+                <?php
+                wp_nav_menu(
+                    array(
+                        'menu' => 'primary',
+                        'container' => '',
+                        'theme_location' => 'primary',
+                        'items_wrap' => '<ul id="" class="">%3$s</ul>'
+                    )
+                );
+                ?>
             </div>
         </nav>
     </header>
