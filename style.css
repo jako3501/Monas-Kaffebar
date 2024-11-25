@@ -45,11 +45,12 @@ header nav {
   z-index: 100;
   position: relative;
   background-color: var(--headline-color);
+}
+header nav nav-logo {
   overflow: hidden;
 }
-header nav svg {
+header nav nav-logo svg {
   scale: 0.5;
-  transform: translate(-120px, -3px);
 }
 header nav .ham-menu {
   display: flex;
