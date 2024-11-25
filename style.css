@@ -273,7 +273,7 @@ header nav .menu ul.active {
 .frontpage-container #products-section .woocommerce.columns-4 ul li:nth-child(4) {
   margin-bottom: 0;
 }
-.frontpage-container #products-section .frontpage-button {
+.frontpage-container #products-section .all-products-btn {
   margin-top: 40px;
   box-shadow: 10px 10px 50px var(--excerpt-color);
   background-color: var(--green-color);
@@ -285,11 +285,11 @@ header nav .menu ul.active {
   width: 100%;
   justify-content: center;
 }
-.frontpage-container #products-section .frontpage-button a {
+.frontpage-container #products-section .all-products-btn a {
   color: var(--text-color-white);
   text-decoration: none;
 }
-.frontpage-container #products-section .frontpage-button:hover {
+.frontpage-container #products-section .all-products-btn:hover {
   scale: 1.05;
   background-color: var(--hover-color);
 }
@@ -303,6 +303,36 @@ header nav .menu ul.active {
 }
 .frontpage-container #about-section .recipes-text {
   margin-bottom: 75px;
+}
+.frontpage-container #about-section .recipes-text .recipes-btn {
+  background-color: var(--green-color);
+  box-shadow: 10px 10px 50px var(--excerpt-color);
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: var(--text-color-white);
+  transition: 0.2s all ease;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.frontpage-container #about-section .recipes-text .recipes-btn:hover {
+  scale: 1.05;
+  background-color: var(--hover-color);
+}
+.frontpage-container #about-section .custom-design-text .custom-btn {
+  background-color: var(--green-color);
+  box-shadow: 10px 10px 50px var(--excerpt-color);
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: var(--text-color-white);
+  transition: 0.2s all ease;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.frontpage-container #about-section .custom-design-text .custom-btn:hover {
+  scale: 1.05;
+  background-color: var(--hover-color);
 }
 
 .blog-header h1 {
