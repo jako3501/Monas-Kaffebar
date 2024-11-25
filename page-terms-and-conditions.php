@@ -6,12 +6,12 @@
 
             <?php
             $title = get_the_title();
-            $content = get_the_content();
+            $tac = get_field("terms_and_conditions");
             ?>
 
             <section class="terms-and-conditions">
                 <h1><?php echo $title ?></h1>
-                <p><?php echo $content ?></p>
+                <p><?php echo $tac ?></p>
             </section>
 
         <?php endwhile ?>
