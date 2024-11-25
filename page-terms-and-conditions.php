@@ -11,7 +11,7 @@
 
             <section class="terms-and-conditions">
                 <h1><?php echo $title ?></h1>
-                <p><?php echo $tac ?></p>
+                <p>???<?php echo $tac ?></p>
             </section>
 
         <?php endwhile ?>
