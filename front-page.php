@@ -77,7 +77,7 @@
                     <div class="custom-designs-text">
                         <h1>Custom Designs</h1>
                         <p><?php echo $custom_design_description ?></p>
-                        <button class="custom-btn frontpage-button"><a href="<?php echo get_permalink( get_page_by_path('designs') ); ?>">Custom Designs</a></button>
+                        <button class="custom-btn frontpage-button"><a href="<?php echo get_permalink( get_page_by_path('customdesigns') ); ?>">Custom Designs</a></button>
 
                         <!-- .. forms for recipes -->
                     </div>

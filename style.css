@@ -315,6 +315,10 @@ header nav .menu ul.active {
   width: 100%;
   justify-content: center;
 }
+.frontpage-container #about-section .recipes-text .recipes-btn a {
+  color: var(--text-color-white);
+  text-decoration: none;
+}
 .frontpage-container #about-section .recipes-text .recipes-btn:hover {
   scale: 1.05;
   background-color: var(--hover-color);
@@ -329,6 +333,10 @@ header nav .menu ul.active {
   display: flex;
   width: 100%;
   justify-content: center;
+}
+.frontpage-container #about-section .custom-designs-text .custom-btn a {
+  color: var(--text-color-white);
+  text-decoration: none;
 }
 .frontpage-container #about-section .custom-designs-text .custom-btn:hover {
   scale: 1.05;
