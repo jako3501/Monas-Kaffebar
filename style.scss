@@ -52,12 +52,16 @@ header {
         background-color: var(--headline-color);
 
         .nav-logo {
+            display: flex;
+            justify-content: center;
+            place-items: center;
+            margin-left: 30px;
             overflow: hidden;
-            height: 80px;
-            width: 150px;
+            height: 100px;
+            width: 170px;
 
             svg {
-                scale: 0.5;
+                overflow: hidden;
                 // transform: translate(-120px, -3px);
             }
         }
