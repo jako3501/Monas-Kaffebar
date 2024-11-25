@@ -54,12 +54,12 @@ header nav nav-logo {
 header nav nav-logo svg {
   scale: 0.5;
 }
-header nav icons-box {
+header nav .icons-box {
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
-header nav icons-box .ham-menu {
+header nav .icons-box .ham-menu {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -68,7 +68,7 @@ header nav icons-box .ham-menu {
   width: 30px;
   margin: 0 30px;
 }
-header nav icons-box .ham-menu span {
+header nav .icons-box .ham-menu span {
   height: 4px;
   width: 100%;
   left: 50%;
@@ -78,27 +78,27 @@ header nav icons-box .ham-menu span {
   transform: translate(-50%, -50%);
   transition: 0.3s ease;
 }
-header nav icons-box .ham-menu span:nth-child(1) {
+header nav .icons-box .ham-menu span:nth-child(1) {
   top: 25%;
 }
-header nav icons-box .ham-menu span:nth-child(2) {
+header nav .icons-box .ham-menu span:nth-child(2) {
   top: 50%;
 }
-header nav icons-box .ham-menu span:nth-child(3) {
+header nav .icons-box .ham-menu span:nth-child(3) {
   top: 75%;
 }
-header nav icons-box .ham-menu.active span:nth-child(1) {
+header nav .icons-box .ham-menu.active span:nth-child(1) {
   top: 50%;
   transform: translate(-50%, -50%) rotate(45deg);
 }
-header nav icons-box .ham-menu.active span:nth-child(2) {
+header nav .icons-box .ham-menu.active span:nth-child(2) {
   opacity: 0;
 }
-header nav icons-box .ham-menu.active span:nth-child(3) {
+header nav .icons-box .ham-menu.active span:nth-child(3) {
   top: 50%;
   transform: translate(-50%, -50%) rotate(-45deg);
 }
-header nav icons-box .menu ul {
+header nav .icons-box .menu ul {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -115,14 +115,14 @@ header nav icons-box .menu ul {
   font-size: 20px;
   transition: 0.3s ease;
 }
-header nav icons-box .menu ul li {
+header nav .icons-box .menu ul li {
   list-style-type: none;
 }
-header nav icons-box .menu ul li a {
+header nav .icons-box .menu ul li a {
   color: var(--text-color);
   text-decoration: none;
 }
-header nav icons-box .menu ul.active {
+header nav .icons-box .menu ul.active {
   right: 0;
 }
 
