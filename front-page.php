@@ -71,13 +71,13 @@
                     <div class="recipes-text">
                         <h3>Vil du vide, hvordan jeg laver min iskaffe?</h3>
                         <p>Tjek mine opskrifter!</p>
-                        <button class="recipes-btn frontpage-button">Opskrifter</button>
+                        <button class="recipes-btn frontpage-button"><a href="<?php echo get_permalink( get_page_by_path('opskrifter') ); ?>">Opskrifter</a></button>
                     </div>
 
                     <div class="custom-designs-text">
                         <h1>Custom Designs</h1>
                         <p><?php echo $custom_design_description ?></p>
-                        <button class="custom-btn frontpage-button">Custom Designs</button>
+                        <button class="custom-btn frontpage-button"><a href="<?php echo get_permalink( get_page_by_path('designs') ); ?>">Custom Designs</a></button>
 
                         <!-- .. forms for recipes -->
                     </div>
