@@ -708,6 +708,10 @@ footer .footer-blocks .block-one .block-two {
   header nav .icons-box .ham-menu {
     display: none;
   }
+  .blog-header {
+    display: flex;
+    align-items: center;
+  }
   .blog-container {
     display: flex;
     flex-direction: row;
