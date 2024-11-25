@@ -127,10 +127,10 @@ header nav .menu ul li {
 header nav .menu ul li a {
   color: var(--text-color);
   text-decoration: none;
-  transition: 0.3s ease;
+  transition: 0.15s ease;
 }
 header nav .menu ul li a:hover {
-  color: var(--excerpt-color);
+  color: var(--green-color);
 }
 header nav .menu ul.active {
   right: 0;
@@ -674,6 +674,9 @@ footer .footer-blocks .block-one .block-two {
   header nav {
     justify-content: space-between;
   }
+  header nav .nav-logo {
+    margin-left: 5%;
+  }
   header nav .menu {
     order: 1;
     margin-right: 25%;
@@ -695,5 +698,8 @@ footer .footer-blocks .block-one .block-two {
   }
   header nav .icons-box .ham-menu {
     display: none;
+  }
+  .dgwt-wcas-search-wrapp {
+    margin: 0;
   }
 }/*# sourceMappingURL=style.css.map */

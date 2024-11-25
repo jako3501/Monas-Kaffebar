@@ -148,10 +148,10 @@ header {
                     a {
                         color: var(--text-color);
                         text-decoration: none;
-                        transition: 0.3s ease;
+                        transition: 0.15s ease;
                     }
                     a:hover{
-                        color: var(--excerpt-color);
+                        color: var(--green-color);
                     }
                 }
             }
@@ -808,6 +808,9 @@ footer {
     header {
         nav {
             justify-content: space-between;
+            .nav-logo{
+                margin-left: 5%;
+            }
             .menu{
                 order: 1;
                 margin-right: 25%;
@@ -836,4 +839,8 @@ footer {
             }
         }
     }
+    .dgwt-wcas-search-wrapp{
+        margin: 0;
+    }
+
 }
