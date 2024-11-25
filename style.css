@@ -135,6 +135,10 @@ header nav .menu ul.active {
   display: none;
 }
 
+.page-item-65 {
+  order: -1;
+}
+
 .frontpage-container #hero-section {
   height: 100vh;
 }
@@ -672,5 +676,14 @@ footer .footer-blocks .block-one .block-two {
     height: 80px;
     right: 0;
     gap: 10px;
+  }
+  header nav .menu ul li a {
+    color: var(--text-color-white);
+  }
+  header nav .menu ul .page-item-10 {
+    display: none;
+  }
+  header nav .icons-box .ham-menu {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
