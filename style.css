@@ -50,7 +50,10 @@ header nav {
   position: relative;
   background-color: var(--headline-color);
 }
-header nav .nav-logo {
+header nav .logo-link {
+  margin-left: 5%;
+}
+header nav .logo-link .nav-logo {
   display: flex;
   justify-content: center;
   place-items: center;
@@ -124,14 +127,14 @@ header nav .icons-box .basket-icon a .basket-counter {
 header nav .menu ul {
   display: flex;
   flex-direction: column;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   margin: 0;
   background-color: var(--contrast-color);
   height: 100vh;
   width: 100%;
-  right: -100%;
+  transform: translateX(100%);
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -150,7 +153,7 @@ header nav .menu ul li a:hover {
   color: var(--green-color);
 }
 header nav .menu ul.active {
-  right: 0;
+  transform: translateX(0);
 }
 
 .page-item-11 {
@@ -783,7 +786,7 @@ footer .footer-blocks .block-one .block-two {
     position: relative;
     background-color: transparent;
     height: 80px;
-    right: 0;
+    transform: translateX(0);
     gap: 35px;
     padding-left: 35px;
   }
@@ -796,12 +799,15 @@ footer .footer-blocks .block-one .block-two {
   header nav .icons-box .ham-menu {
     display: none;
   }
-  .dgwt-wcas-search-wrapp {
+  body.home .dgwt-wcas-search-wrapp {
     margin: 0;
     padding: 0;
   }
   .woocommerce ul.products {
     padding: 0;
+  }
+  body.woocommerce-shop.woocommerce ul.products {
+    padding: var(--container-padding);
   }
   .frontpage-container #about-section .about-image img {
     width: 50%;

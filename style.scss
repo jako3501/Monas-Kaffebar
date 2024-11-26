@@ -55,15 +55,17 @@ header {
         z-index: 100;
         position: relative;
         background-color: var(--headline-color);
-
-        .nav-logo {
-            display: flex;
-            justify-content: center;
-            place-items: center;
-            margin-left: 30px;
-            overflow: hidden;
-            height: 80px;
-            width: 170px;
+        .logo-link{
+            margin-left: 5%;
+            .nav-logo {
+                display: flex;
+                justify-content: center;
+                place-items: center;
+                margin-left: 30px;
+                overflow: hidden;
+                height: 80px;
+                width: 170px;
+            }
         }
 
         .icons-box {
@@ -146,14 +148,14 @@ header {
             ul {
                 display: flex;
                 flex-direction: column;
-                position: absolute;
+                position: fixed;
                 top: 0;
                 right: 0;
                 margin: 0;
                 background-color: var(--contrast-color);
                 height: 100vh;
                 width: 100%;
-                right: -100%;
+                transform: translateX(100%);
                 align-items: center;
                 justify-content: center;
                 text-align: center;
@@ -175,7 +177,7 @@ header {
             }
 
             ul.active {
-                right: 0;
+                transform: translateX(0);
             }
         }
     }
@@ -925,7 +927,7 @@ footer {
                     position: relative;
                     background-color: transparent;
                     height: 80px;
-                    right: 0;
+                    transform: translateX(0);
                     gap: 35px;
                     padding-left: 35px;
                     li {
@@ -948,20 +950,33 @@ footer {
             }
         }
     }
-    .dgwt-wcas-search-wrapp {
-        margin: 0;
-        padding: 0;
+
+    body.home{
+        .dgwt-wcas-search-wrapp{
+            margin: 0;
+            padding: 0;
+        }
     }
+
+    // .dgwt-wcas-search-wrapp{
+    //     margin: 0;
+    // }
+
     .woocommerce ul.products {
         padding: 0;
     }
-    .frontpage-container #about-section .about-image {
-        img {
+
+    body.woocommerce-shop.woocommerce ul.products{
+        padding: var(--container-padding);
+    }
+
+    .frontpage-container #about-section .about-image{
+        img{
             width: 50%;
         }
     }
 
-    .frontpage-container #hero-section .hero-visuals img {
+    .frontpage-container #hero-section .hero-visuals img{
         width: 450px;
         top: 50%;
     }
