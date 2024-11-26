@@ -880,7 +880,16 @@ footer {
             }
         }
 
-        .block-one .block-two {
+        .block-one {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            margin-top: 20px;
+
+            
+        }
+
+        .block-two {
             display: flex;
             flex-direction: column;
             padding: 10px;
