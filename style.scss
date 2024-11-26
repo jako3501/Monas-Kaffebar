@@ -867,7 +867,7 @@ footer {
     .footer-blocks {
         display: flex;
         justify-content: center;
-        flex-direction: row;
+        flex-direction: column;
 
         .some-svgs {
             display: flex;
@@ -938,8 +938,9 @@ footer {
 @media only screen and (min-width: 430px) {
     .blog-header {
         display: flex;
+        flex-direction: row;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
     }
 
     .blog-container {
