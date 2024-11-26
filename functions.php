@@ -25,7 +25,7 @@ add_action( 'init', 'register_my_menus' );
 //disable gutenberg editor
 function webshop_disable_gutenberg() {
     remove_post_type_support("page", "editor");
-    remove_post_type_support("om-monas","editor");
+    remove_post_type_support("om-mona","editor");
 }
 add_action("init", "webshop_disable_gutenberg");
 
