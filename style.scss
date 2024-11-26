@@ -923,10 +923,16 @@ footer {
             }
         }
     }
+
     body.home.dgwt-wcas-search-wrapp{
         margin: 0;
         padding: 0;
     }
+
+    .dgwt-wcas-search-wrapp{
+        margin: 0;
+    }
+
     .woocommerce ul.products {
         padding: 0;
     }
@@ -940,7 +946,6 @@ footer {
             width: 50%;
         }
     }
-
 
     .frontpage-container #hero-section .hero-visuals img{
         width: 450px;
