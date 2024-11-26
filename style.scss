@@ -924,9 +924,11 @@ footer {
         }
     }
 
-    body.home.dgwt-wcas-search-wrapp{
-        margin: 0;
-        padding: 0;
+    body.home{
+        .dgwt-wcas-search-wrapp{
+            margin: 0;
+            padding: 0;
+        }
     }
 
     // .dgwt-wcas-search-wrapp{

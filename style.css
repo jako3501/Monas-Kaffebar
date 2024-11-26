@@ -774,7 +774,7 @@ footer .footer-blocks .block-one .block-two {
   header nav .icons-box .ham-menu {
     display: none;
   }
-  body.home.dgwt-wcas-search-wrapp {
+  body.home .dgwt-wcas-search-wrapp {
     margin: 0;
     padding: 0;
   }
