@@ -923,18 +923,24 @@ footer {
             }
         }
     }
-    .dgwt-wcas-search-wrapp{
+    body.home.dgwt-wcas-search-wrapp{
         margin: 0;
         padding: 0;
     }
     .woocommerce ul.products{
         padding: 0;
     }
+
+    body.woocommerce-shop.woocommerce ul.products{
+        padding: var(--container-padding);
+    }
+
     .frontpage-container #about-section .about-image{
         img{
             width: 50%;
         }
     }
+
 
     .frontpage-container #hero-section .hero-visuals img{
         width: 450px;
