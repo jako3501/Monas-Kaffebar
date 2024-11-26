@@ -15,7 +15,7 @@
     <header>
         <nav>
             <?php if (!is_front_page()) : ?>
-                <a href="<?php echo get_permalink( get_page_by_path('') ); ?>">
+                <a class="logo-link" href="<?php echo home_url('/'); ?>">
                     <div class="nav-logo">
                         <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 415 245">

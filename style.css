@@ -50,7 +50,10 @@ header nav {
   position: relative;
   background-color: var(--headline-color);
 }
-header nav .nav-logo {
+header nav .logo-link {
+  margin-left: 5%;
+}
+header nav .logo-link .nav-logo {
   display: flex;
   justify-content: center;
   place-items: center;
