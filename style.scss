@@ -16,7 +16,7 @@ Author: Sergio & Jakob
     --text-color-white: #ffffff;
     --excerpt-color: #979797;
     --green-color: #347656;
-    --hover-color: #42936c; 
+    --hover-color: #42936c;
 
     --container-padding: 0 5%;
 }
@@ -105,7 +105,6 @@ header {
                 }
 
                 &.active {
-
                     // Use `&` to correctly target the current `.ham-menu` element
                     span:nth-child(1) {
                         top: 50%;
@@ -122,8 +121,8 @@ header {
                     }
                 }
             }
-            .basket-icon{
-                a{
+            .basket-icon {
+                a {
                     position: relative;
                     .basket-counter {
                         position: absolute;
@@ -169,7 +168,7 @@ header {
                         text-decoration: none;
                         transition: 0.15s ease;
                     }
-                    a:hover{
+                    a:hover {
                         color: var(--green-color);
                     }
                 }
@@ -179,7 +178,6 @@ header {
                 right: 0;
             }
         }
-
     }
 }
 
@@ -202,7 +200,6 @@ header {
     //frontpage
     order: -1;
 }
-
 
 //Frontpage
 .frontpage-container {
@@ -421,8 +418,8 @@ header {
                 background-color: var(--hover-color);
             }
         }
-        .custom-designs-text{
-            .custom-btn{
+        .custom-designs-text {
+            .custom-btn {
                 background-color: var(--green-color);
                 box-shadow: 10px 10px 50px var(--excerpt-color);
                 padding: 5px 15px;
@@ -461,8 +458,6 @@ header {
     max-width: 1200px;
     background-color: var(--background-color);
 
-
-
     .blog-content {
         background-color: var(--text-color-white);
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -470,6 +465,7 @@ header {
         width: 100%;
         height: 265px;
         filter: drop-shadow(0px 0px 6px #0000003e);
+        transition: 0.2s ease; 
 
         h2 {
             font-family: var(--title-font);
@@ -531,6 +527,10 @@ header {
             height: 126px;
             object-fit: cover;
             overflow: hidden;
+        }
+        &:hover {
+            transform: scale(1.02);
+            
         }
     }
 }
@@ -685,7 +685,7 @@ header {
     }
 }
 
-//Woocommerce styling 
+//Woocommerce styling
 // Basket
 .woocommerce-cart-form {
     padding: 50px 5% 0 5%;
@@ -708,12 +708,13 @@ header {
     text-decoration: none;
 }
 
-// Checkout 
+// Checkout
 form.checkout.woocommerce-checkout {
     padding: 0 5% 50px 5%;
 }
 
-.woocommerce #payment #place_order, .woocommerce-page #payment #place_order{
+.woocommerce #payment #place_order,
+.woocommerce-page #payment #place_order {
     background-color: var(--green-color);
     padding: 5px 15px;
     color: var(--text-color-white);
@@ -811,7 +812,7 @@ span.woocommerce-Price-amount.amount {
     margin: 20px 0;
 }
 
-.dgwt-wcas-style-pirx .dgwt-wcas-sf-wrapp input[type=search].dgwt-wcas-search-input {
+.dgwt-wcas-style-pirx .dgwt-wcas-sf-wrapp input[type="search"].dgwt-wcas-search-input {
     background-color: var(--contrast-color);
     width: 100%;
 }
@@ -866,7 +867,6 @@ footer {
 }
 
 @media only screen and (min-width: 430px) {
-
     .blog-header {
         display: flex;
         align-items: center;
@@ -889,13 +889,13 @@ footer {
     header {
         nav {
             justify-content: space-between;
-            .nav-logo{
+            .nav-logo {
                 margin-left: 5%;
             }
-            .menu{
+            .menu {
                 order: 1;
                 margin-right: 20%;
-                ul{
+                ul {
                     flex-direction: row;
                     position: relative;
                     background-color: transparent;
@@ -903,8 +903,8 @@ footer {
                     right: 0;
                     gap: 35px;
                     padding-left: 35px;
-                    li{
-                        a{
+                    li {
+                        a {
                             color: var(--text-color-white);
                         }
                     }
@@ -927,7 +927,7 @@ footer {
         margin: 0;
         padding: 0;
     }
-    .woocommerce ul.products{
+    .woocommerce ul.products {
         padding: 0;
     }
 
@@ -947,28 +947,27 @@ footer {
         top: 50%;
     }
 
-
     .blog-container {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        max-width: 1500px;
 
         .blog-content {
             margin: 20px;
         }
     }
 
-    footer{
+    footer {
         padding: 30px 10%;
-        .footer-blocks{
+        .footer-blocks {
             justify-content: flex-start;
             gap: 100px;
-            .block-one{
-                p{
+            .block-one {
+                p {
                     font: 16px;
                 }
             }
         }
-
     }
 }
