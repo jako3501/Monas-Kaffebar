@@ -724,6 +724,10 @@ footer a {
   color: var(--text-color-white);
   font-family: var(--text-font);
   text-decoration: none;
+  font-size: 13px;
+}
+footer a:hover {
+  color: var(--green-color);
 }
 footer .footer-blocks {
   display: flex;
@@ -747,8 +751,6 @@ footer .footer-blocks .block-one .block-two {
 footer .footer-blocks .block-three {
   display: flex;
   flex-direction: column;
-  padding: 10px;
-  margin-top: 20px;
 }
 
 .terms-and-conditions {
