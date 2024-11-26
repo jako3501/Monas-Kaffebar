@@ -22,3 +22,16 @@ document.addEventListener("DOMContentLoaded", () => {
         button.innerHTML = '+';
     });
 });
+
+// Scrolling when clicking svg
+document.addEventListener("DOMContentLoaded", () => {
+    const scrollSvg = document.getElementById("scroll-arrow");
+    const section = document.getElementById("products-section");
+
+    const scrollClicking = () => {
+        section.scrollIntoView({ behavior: 'smooth' });
+    };
+
+    scrollSvg.addEventListener('click', scrollClicking);
+});
+
