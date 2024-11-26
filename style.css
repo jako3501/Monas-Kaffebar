@@ -746,19 +746,20 @@ footer .footer-blocks .some-svgs svg {
 footer .footer-blocks .block-one {
   display: flex;
   flex-direction: column;
-  padding: 10px;
   margin-top: 20px;
+  padding: 0 10px;
 }
 footer .footer-blocks .block-two {
   display: flex;
   flex-direction: column;
-  padding: 10px;
   margin-top: 20px;
+  padding: 0 10px;
 }
 footer .footer-blocks .block-three {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
+  padding: 0 10px;
 }
 
 .terms-and-conditions {
