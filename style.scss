@@ -869,11 +869,17 @@ footer {
             }
         }
 
-        .block-one .block-two {
+        .block-one .block-two .block-three {
             display: flex;
             flex-direction: column;
             padding: 10px;
             margin-top: 20px;
+
+            a {
+                color: var(--text-color-white);
+                font-family: var(--text-font);
+                text-decoration: none;
+            }
         }
     }
 }
