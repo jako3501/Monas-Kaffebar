@@ -6,7 +6,7 @@
 
             <?php
             $title = get_the_title();
-            $rar = get_field("return_and_refund");
+            $rar = get_field("refund_and_return");
             ?>
 
             <section class="terms-and-conditions">
