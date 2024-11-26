@@ -720,6 +720,11 @@ footer p {
   font-family: var(--text-font);
   font-size: 13px;
 }
+footer a {
+  color: var(--text-color-white);
+  font-family: var(--text-font);
+  text-decoration: none;
+}
 footer .footer-blocks {
   display: flex;
   justify-content: space-between;
@@ -738,11 +743,6 @@ footer .footer-blocks .block-one .block-two .block-three {
   flex-direction: column;
   padding: 10px;
   margin-top: 20px;
-}
-footer .footer-blocks .block-one .block-two .block-three a {
-  color: var(--text-color-white);
-  font-family: var(--text-font);
-  text-decoration: none;
 }
 
 .terms-and-conditions {
