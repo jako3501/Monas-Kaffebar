@@ -738,7 +738,13 @@ footer .footer-blocks .some-svgs {
 footer .footer-blocks .some-svgs svg {
   fill: var(--text-color-white);
 }
-footer .footer-blocks .block-one .block-two .block-three {
+footer .footer-blocks .block-one .block-two {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 20px;
+}
+footer .footer-blocks .block-three {
   display: flex;
   flex-direction: column;
   padding: 10px;
