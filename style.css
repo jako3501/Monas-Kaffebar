@@ -745,13 +745,13 @@ footer .footer-blocks .block-one .block-two {
   font-family: var(--title-font);
   color: var(--headline-color);
   font-size: 1.5rem;
-  margin: 30px 20px 10px 20px;
+  margin: 50px 20px 10px 20px;
 }
 .terms-and-conditions h3 {
   font-family: var(--title-font);
   color: var(--headline-color);
   font-size: 1.2rem;
-  margin: 40px 20px 10px 20px;
+  margin: 20px 20px 10px 20px;
 }
 .terms-and-conditions p {
   font-family: var(--text-font);
