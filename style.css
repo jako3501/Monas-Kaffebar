@@ -731,8 +731,8 @@ footer a:hover {
 }
 footer .footer-blocks {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-between;
+  flex-direction: row;
 }
 footer .footer-blocks .some-svgs {
   display: flex;
@@ -790,9 +790,8 @@ footer .footer-blocks .block-three {
 @media only screen and (min-width: 430px) {
   .blog-header {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
   }
   .blog-container {
     display: flex;
@@ -863,7 +862,7 @@ footer .footer-blocks .block-three {
     padding: 30px 10%;
   }
   footer .footer-blocks {
-    justify-content: center;
+    justify-content: flex-start;
     gap: 100px;
   }
   footer .footer-blocks .block-one p {
