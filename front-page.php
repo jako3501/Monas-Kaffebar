@@ -75,35 +75,36 @@
                             $info_title = get_field('headline');
                             $info_content = get_field('description');
                             ?>
-                                <div class="about-text">
-                                    <h2><?php echo $info_title; ?></h2>
-                                    <p><?php echo $info_content ?></p>
-                                    <div class="about-image">
-                                        <img src="<?php echo esc_url($mona_billede['sizes']["medium"]); ?>" alt="">
-                                    </div>
-                                </div>
-                                <?php
+                            <div class="about-text">
+                                <h2><?php echo $info_title; ?></h2>
+                                <p><?php echo $info_content ?></p>
+                            </div>
+                            <?php
                         endwhile;
                         wp_reset_postdata();
                     endif;
                     ?>
 
-                        <div class="recipes-text">
-                            <h3>Vil du vide, hvordan jeg laver min iskaffe?</h3>
-                            <p>Tjek mine opskrifter!</p>
-                            <button class="recipes-btn frontpage-button"><a
-                                    href="<?php echo get_permalink(get_page_by_path('opskrifter')); ?>">Opskrifter</a></button>
-                        </div>
+                    <div class="about-image">
+                        <img src="<?php echo esc_url($mona_billede['sizes']["medium"]); ?>" alt="">
+                    </div>
 
-                        <div class="custom-designs-text">
-                            <h1>Custom Designs</h1>
-                            <p><?php echo $custom_design_description ?></p>
-                            <button class="custom-btn frontpage-button"><a
-                                    href="<?php echo get_permalink(get_page_by_path('customdesigns')); ?>">Custom
-                                    Designs</a></button>
+                    <div class="recipes-text">
+                        <h3>Vil du vide, hvordan jeg laver min iskaffe?</h3>
+                        <p>Tjek mine opskrifter!</p>
+                        <button class="recipes-btn frontpage-button"><a
+                                href="<?php echo get_permalink(get_page_by_path('opskrifter')); ?>">Opskrifter</a></button>
+                    </div>
 
-                            <!-- .. forms for recipes -->
-                        </div>
+                    <div class="custom-designs-text">
+                        <h1>Custom Designs</h1>
+                        <p><?php echo $custom_design_description ?></p>
+                        <button class="custom-btn frontpage-button"><a
+                                href="<?php echo get_permalink(get_page_by_path('customdesigns')); ?>">Custom
+                                Designs</a></button>
+
+                        <!-- .. forms for recipes -->
+                    </div>
 
                 </section>
 
