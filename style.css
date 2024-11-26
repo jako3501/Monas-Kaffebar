@@ -847,4 +847,7 @@ footer .footer-blocks .block-one .block-two {
   footer .footer-blocks .block-one p {
     font: 16px;
   }
+  .terms-and-conditions {
+    padding: 0 15%;
+  }
 }/*# sourceMappingURL=style.css.map */
