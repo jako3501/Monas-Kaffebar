@@ -759,6 +759,12 @@ footer .footer-blocks .block-one .block-two {
   font-size: 1rem;
   margin: 0 20px 10px 20px;
 }
+.terms-and-conditions ul {
+  font-family: var(--text-font);
+  color: var(--text-color);
+  font-size: 1rem;
+  list-style-type: none;
+}
 
 @media only screen and (min-width: 430px) {
   .blog-header {
