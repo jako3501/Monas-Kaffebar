@@ -35,11 +35,32 @@ document.addEventListener("DOMContentLoaded", () => {
     scrollSvg.addEventListener('click', scrollClicking);
 });
 
-// Counter for basket
+// // Counter for basket
+// const basketCounter = document.getElementById('basket-counter');
+// const addToCartButtons = document.querySelectorAll('.add_to_cart_button');
+
+// let counter = 0;
+
+// // Add click event listener to each "Add to Cart" button
+// addToCartButtons.forEach(button => {
+//     button.addEventListener('click', () => {
+//         // Increment the counter
+//         counter++;
+
+//         // Update the counter display
+//         basketCounter.textContent = counter;
+//     });
+// });
+
+// Select the basket counter and all "Add to Cart" buttons
 const basketCounter = document.getElementById('basket-counter');
 const addToCartButtons = document.querySelectorAll('.add_to_cart_button');
 
-let counter = 0;
+// Retrieve the counter value from localStorage (default to 0 if not set)
+let counter = parseInt(localStorage.getItem('cartCounter')) || 0;
+
+// Update the counter display with the saved value
+basketCounter.textContent = counter;
 
 // Add click event listener to each "Add to Cart" button
 addToCartButtons.forEach(button => {
@@ -49,6 +70,9 @@ addToCartButtons.forEach(button => {
 
         // Update the counter display
         basketCounter.textContent = counter;
+
+        // Save the new counter value to localStorage
+        localStorage.setItem('cartCounter', counter);
     });
 });
 
