@@ -172,6 +172,14 @@ header nav .menu ul.active {
   order: -1;
 }
 
+.page-item-13 {
+  display: none;
+}
+
+.page-item-3 {
+  display: none;
+}
+
 .frontpage-container #hero-section {
   height: 100vh;
 }
