@@ -867,7 +867,7 @@ footer {
     .footer-blocks {
         display: flex;
         justify-content: space-between;
-        flex-direction: column;
+        flex-direction: row;
 
         .some-svgs {
             display: flex;
@@ -891,8 +891,6 @@ footer {
         .block-three {
             display: flex;
             flex-direction: column;
-            margin-top: 20px;
-            padding: 10px;
         }
     }
 }
@@ -953,14 +951,6 @@ footer {
         .blog-content {
             max-width: 430px;
         }
-    }
-}
-
-@media only screen and (min-width: 640px) {
-    .footer-blocks {
-        flex-direction: row;
-        justify-content: space-between;
-
     }
 }
 
@@ -1047,7 +1037,7 @@ footer {
     footer {
         padding: 30px 10%;
         .footer-blocks {
-            justify-content: center;
+            justify-content: flex-start;
             gap: 100px;
             .block-one {
                 p {
