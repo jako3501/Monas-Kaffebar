@@ -594,6 +594,13 @@ form.checkout.woocommerce-checkout {
   padding: 0 5% 50px 5%;
 }
 
+.woocommerce #payment #place_order, .woocommerce-page #payment #place_order {
+  background-color: var(--green-color);
+  padding: 5px 15px;
+  color: var(--text-color-white);
+  border-radius: 5px;
+}
+
 .woocommerce ul.products {
   padding: var(--container-padding);
 }
