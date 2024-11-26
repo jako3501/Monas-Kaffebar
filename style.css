@@ -729,6 +729,28 @@ footer .footer-blocks .block-one .block-two {
   margin-top: 20px;
 }
 
+.terms-and-conditions {
+  padding: 0 5%;
+}
+.terms-and-conditions h1 {
+  font-family: var(--title-font);
+  color: var(--headline-color);
+  font-size: 2rem;
+  margin: 50px 20px 20px 20px;
+}
+.terms-and-conditions h2 {
+  font-family: var(--title-font);
+  color: var(--headline-color);
+  font-size: 1.5rem;
+  margin: 30px 20px 10px 20px;
+}
+.terms-and-conditions p {
+  font-family: var(--text-font);
+  color: var(--text-color);
+  font-size: 1rem;
+  margin: 0 20px 10px 20px;
+}
+
 @media only screen and (min-width: 430px) {
   .blog-header {
     display: flex;
