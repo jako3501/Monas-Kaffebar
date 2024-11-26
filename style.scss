@@ -15,8 +15,8 @@ Author: Sergio & Jakob
     --text-color: #000000;
     --text-color-white: #ffffff;
     --excerpt-color: #979797;
-    --green-color: #42936c;
-    --hover-color: #3fa93f;
+    --green-color: #347656;
+    --hover-color: #42936c; 
 
     --container-padding: 0 5%;
 }
@@ -170,6 +170,11 @@ header {
 }
 
 .page-item-12 {
+    //my-account side
+    display: none;
+}
+
+.page-item-13 {
     //my-account side
     display: none;
 }
@@ -718,7 +723,7 @@ form.checkout.woocommerce-checkout {
             color: var(--text-color-white);
             background-color: var(--green-color);
             margin: 0;
-            padding: 0 7px 4px 7px;
+            padding: 7px 11px 10px 11px;
             margin-right: 10px;
             border-radius: 100%;
             float: right;
@@ -862,7 +867,7 @@ footer {
             }
             .menu{
                 order: 1;
-                margin-right: 25%;
+                margin-right: 20%;
                 ul{
                     flex-direction: row;
                     position: relative;
@@ -893,6 +898,20 @@ footer {
     }
     .dgwt-wcas-search-wrapp{
         margin: 0;
+        padding: 0;
+    }
+    .woocommerce ul.products{
+        padding: 0;
+    }
+    .frontpage-container #about-section .about-image{
+        img{
+            width: 50%;
+        }
+    }
+
+    .frontpage-container #hero-section .hero-visuals img{
+        width: 450px;
+        top: 50%;
     }
 
 
@@ -904,5 +923,14 @@ footer {
         .blog-content {
             margin: 20px;
         }
+    }
+
+    footer{
+        padding: 30px 10%;
+        .footer-blocks{
+            justify-content: flex-start;
+            gap: 100px;
+        }
+
     }
 }
