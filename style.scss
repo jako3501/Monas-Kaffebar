@@ -868,6 +868,7 @@ footer {
         display: flex;
         justify-content: space-between;
         flex-direction: row;
+        flex-wrap: wrap;
 
         .some-svgs {
             display: flex;

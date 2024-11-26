@@ -733,6 +733,7 @@ footer .footer-blocks {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 footer .footer-blocks .some-svgs {
   display: flex;
