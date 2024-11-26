@@ -104,6 +104,23 @@ header nav .icons-box .ham-menu.active span:nth-child(3) {
   top: 50%;
   transform: translate(-50%, -50%) rotate(-45deg);
 }
+header nav .icons-box .basket-icon a {
+  position: relative;
+}
+header nav .icons-box .basket-icon a .basket-counter {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
 header nav .menu ul {
   display: flex;
   flex-direction: column;
@@ -190,6 +207,7 @@ header nav .menu ul.active {
   right: 10px;
   animation: bounceToScroll 1.2s ease;
   animation-delay: 5s;
+  cursor: pointer;
 }
 @keyframes bounceToScroll {
   0% {

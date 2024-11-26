@@ -35,3 +35,20 @@ document.addEventListener("DOMContentLoaded", () => {
     scrollSvg.addEventListener('click', scrollClicking);
 });
 
+// Counter for basket
+const basketCounter = document.getElementById('basket-counter');
+const addToCartButtons = document.querySelectorAll('.add_to_cart_button');
+
+let counter = 0;
+
+// Add click event listener to each "Add to Cart" button
+addToCartButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        // Increment the counter
+        counter++;
+
+        // Update the counter display
+        basketCounter.textContent = counter;
+    });
+});
+

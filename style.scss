@@ -122,6 +122,25 @@ header {
                     }
                 }
             }
+            .basket-icon{
+                a{
+                    position: relative;
+                    .basket-counter {
+                        position: absolute;
+                        top: -5px;
+                        right: -5px;
+                        background-color: red;
+                        color: white;
+                        border-radius: 50%;
+                        width: 20px;
+                        height: 20px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 12px;
+                    }
+                }
+            }
         }
 
         .menu {
@@ -227,6 +246,7 @@ header {
                 right: 10px;
                 animation: bounceToScroll 1.2s ease;
                 animation-delay: 5s;
+                cursor: pointer;
             }
 
             @keyframes bounceToScroll {
