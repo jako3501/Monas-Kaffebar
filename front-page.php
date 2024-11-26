@@ -63,10 +63,12 @@
 
 
                     <?php
-                    // Custom query for infoblock post type
                     $infoblock_query = new WP_Query(array(
                         'post_type' => 'om-mona',
-                        'posts_per_page' => -1
+                        'posts_per_page' => -1,
+                        'meta_key' => 'sort_order',
+                        'orderby' => 'meta_value_num',
+                        'order' => 'ASC'
                     ));
 
                     if ($infoblock_query->have_posts()):
