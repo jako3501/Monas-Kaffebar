@@ -29,6 +29,7 @@
         </div>
 
         <div class="block-three">
+            <h5>Policies</h5>
             <a href="<?php echo get_permalink(get_page_by_path('terms-and-conditions')); ?>">Terms and conditions</a>
             <a href="<?php echo get_permalink(get_page_by_path('privacy-policy')); ?>">Privacy policy</a>
             <a href="<?php echo get_permalink(get_page_by_path('refund-return')); ?>">Return and refund policy</a>
