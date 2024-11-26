@@ -174,7 +174,7 @@ header {
     display: none;
 }
 
-.page-item-13 {
+.page-item-130 {
     //my-account side
     display: none;
 }
@@ -930,6 +930,11 @@ footer {
         .footer-blocks{
             justify-content: flex-start;
             gap: 100px;
+            .block-one{
+                p{
+                    font: 16px;
+                }
+            }
         }
 
     }

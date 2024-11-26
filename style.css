@@ -144,7 +144,7 @@ header nav .menu ul.active {
   display: none;
 }
 
-.page-item-13 {
+.page-item-130 {
   display: none;
 }
 
@@ -772,5 +772,8 @@ footer .footer-blocks .block-one .block-two {
   footer .footer-blocks {
     justify-content: flex-start;
     gap: 100px;
+  }
+  footer .footer-blocks .block-one p {
+    font: 16px;
   }
 }/*# sourceMappingURL=style.css.map */
