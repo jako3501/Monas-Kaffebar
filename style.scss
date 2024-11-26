@@ -835,7 +835,7 @@ footer {
     background-color: var(--headline-color);
     color: var(--text-color-white);
     padding: 30px;
-    height: 186px;
+    min-height: 186px;
 
     h4 {
         font-family: var(--title-font);
