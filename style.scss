@@ -656,6 +656,11 @@ header {
         margin: 0 20px;
         list-style-type: none;
 
+        a {
+            color: var(--excerpt-color);
+            text-decoration: none;
+        }
+
         li {
             margin: 20px 0;
             padding: 10px 20px;
