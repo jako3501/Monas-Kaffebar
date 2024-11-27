@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener('DOMContentLoaded', () => {
     const basketCounter = document.getElementById('basket-counter');
     const addToCartButtons = document.querySelectorAll('.add_to_cart_button');
-    const basketContainer = document.querySelector('.shop_table'); // Parent of .remove buttons
+    const removeButtons = document.querySelectorAll('.remove'); 
 
     // Retrieve the counter value from localStorage (default to 0 if not set)
     let counter = parseInt(localStorage.getItem('cartCounter')) || 0;
@@ -56,18 +56,17 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Use event delegation for dynamically handling all .remove buttons
-    if (basketContainer) {
-        basketContainer.addEventListener('click', (event) => {
-            if (event.target.classList.contains('remove')) {
-                console.log('Remove button clicked:', event.target);
-
-                if (counter > 0) {
-                    counter--;
-                    updateCounterDisplay();
-                }
+    removeButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            if (counter >= 0) {
+                counter--;
+                basketCounter.textContent = counter;
+    
+                // Save the new counter value to localStorage
+                localStorage.setItem('cartCounter', counter);
             }
         });
-    }
+    });
 
     function updateCounterDisplay() {
         if (basketCounter) {
