@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener('DOMContentLoaded', () => {
     const basketCounter = document.getElementById('basket-counter');
     const addToCartButtons = document.querySelectorAll('.add_to_cart_button');
-    const removeButtons = document.querySelectorAll('.remove'); 
+    const basketContainer = document.querySelector('.shop_table'); // Parent container for remove buttons
 
     // Retrieve the counter value from localStorage (default to 0 if not set)
     let counter = parseInt(localStorage.getItem('cartCounter')) || 0;
@@ -56,25 +56,27 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Use event delegation for dynamically handling all .remove buttons
-    removeButtons.forEach(button => {
-        button.addEventListener('click', () => {
-            if (counter >= 0) {
-                counter--;
-                basketCounter.textContent = counter;
-    
-                // Save the new counter value to localStorage
-                localStorage.setItem('cartCounter', counter);
+    if (basketContainer) {
+        basketContainer.addEventListener('click', (event) => {
+            // Check if the clicked element is a remove button
+            if (event.target.classList.contains('remove')) {
+                console.log('Remove button clicked:', event.target);
+
+                if (counter > 0) {
+                    counter--;
+                    updateCounterDisplay();
+                }
             }
         });
-    });
+    }
 
     function updateCounterDisplay() {
         if (basketCounter) {
             if (counter === 0) {
-                basketCounter.style.display = 'none';
+                basketCounter.style.display = 'none'; // Hide the counter when it reaches 0
             } else {
-                basketCounter.style.display = 'block';
-                basketCounter.textContent = counter;
+                basketCounter.style.display = 'block'; // Show the counter when it's greater than 0
+                basketCounter.textContent = counter; // Update the displayed counter value
             }
         }
 
