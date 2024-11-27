@@ -36,39 +36,41 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Counter for basket
-const basketCounter = document.getElementById('basket-counter');
-const addToCartButtons = document.querySelectorAll('.add_to_cart_button');
-const removeButtons = document.querySelectorAll('.remove');
+document.addEventListener('DOMContentLoaded', () => {
+    const basketCounter = document.getElementById('basket-counter');
+    const addToCartButtons = document.querySelectorAll('.add_to_cart_button');
+    const removeButtons = document.querySelectorAll('.remove');
 
-// Retrieve the counter value from localStorage (default to 0 if not set)
-let counter = parseInt(localStorage.getItem('cartCounter')) || 0;
+    // Retrieve the counter value from localStorage (default to 0 if not set)
+    let counter = parseInt(localStorage.getItem('cartCounter')) || 0;
 
-// Update the counter display with the saved value
-if (basketCounter) {
-    basketCounter.textContent = counter;
-}
-
-addToCartButtons.forEach(button => {
-    button.addEventListener('click', () => {
-        counter++;
-        updateCounterDisplay();
-    });
-});
-
-removeButtons.forEach(button => {
-    button.addEventListener('click', () => {
-        if (counter > 0) {
-            counter--;
-            updateCounterDisplay();
-        }
-    });
-});
-
-function updateCounterDisplay() {
+    // Update the counter display with the saved value
     if (basketCounter) {
         basketCounter.textContent = counter;
     }
 
-    // Save the updated counter value to localStorage
-    localStorage.setItem('cartCounter', counter);
-}
+    addToCartButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            counter++;
+            updateCounterDisplay();
+        });
+    });
+
+    removeButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            if (counter > 0) {
+                counter--;
+                updateCounterDisplay();
+            }
+        });
+    });
+
+    function updateCounterDisplay() {
+        if (basketCounter) {
+            basketCounter.textContent = counter;
+        }
+
+        // Save the updated counter value to localStorage
+        localStorage.setItem('cartCounter', counter);
+    }
+});
