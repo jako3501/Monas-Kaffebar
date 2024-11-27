@@ -34,3 +34,24 @@ function shop_enable_woocommerce() {
     add_theme_support("woocommerce");
 }
 add_action("after_setup_theme", "shop_enable_woocommerce");
+
+function enqueue_cart_counter_script() {
+    // Enqueue the script for AJAX
+    wp_enqueue_script('cart-counter', get_template_directory_uri() . '/js/cart-counter.js', array('jquery'), null, true);
+
+    // Localize the script to use WordPress AJAX URL
+    wp_localize_script('cart-counter', 'cart_counter_obj', array(
+        'ajax_url' => admin_url('admin-ajax.php')
+    ));
+}
+
+add_action('wp_enqueue_scripts', 'enqueue_cart_counter_script');
+
+// Handle the AJAX request to get the cart item count
+function get_cart_item_count() {
+    echo WC()->cart->get_cart_contents_count();
+    wp_die(); // Always call wp_die() after an AJAX request
+}
+
+add_action('wp_ajax_get_cart_item_count', 'get_cart_item_count'); // For logged-in users
+add_action('wp_ajax_nopriv_get_cart_item_count', 'get_cart_item_count'); // For non-logged-in users
