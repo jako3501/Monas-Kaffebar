@@ -44,15 +44,14 @@ const removeButtons = document.querySelectorAll('.remove');
 let counter = parseInt(localStorage.getItem('cartCounter')) || 0;
 
 // Update the counter display with the saved value
-basketCounter.textContent = counter;
+if (basketCounter) {
+    basketCounter.textContent = counter;
+}
 
 addToCartButtons.forEach(button => {
     button.addEventListener('click', () => {
         counter++;
-        basketCounter.textContent = counter;
-
-        // Save the new counter value to localStorage
-        localStorage.setItem('cartCounter', counter);
+        updateCounterDisplay();
     });
 });
 
@@ -60,10 +59,16 @@ removeButtons.forEach(button => {
     button.addEventListener('click', () => {
         if (counter > 0) {
             counter--;
-            basketCounter.textContent = counter;
-
-            // Save the new counter value to localStorage
-            localStorage.setItem('cartCounter', counter);
+            updateCounterDisplay();
         }
     });
 });
+
+function updateCounterDisplay() {
+    if (basketCounter) {
+        basketCounter.textContent = counter;
+    }
+
+    // Save the updated counter value to localStorage
+    localStorage.setItem('cartCounter', counter);
+}
