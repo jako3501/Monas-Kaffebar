@@ -519,14 +519,7 @@ header nav .menu ul.active {
   font-size: 1.5rem;
   margin: 40px 20px 10px 20px;
 }
-.comments-section .comments-section form textarea {
-  border-radius: 10px;
-  padding: 10px 20px;
-  max-width: 100%;
-  width: 500px;
-  border-radius: 20px;
-}
-.comments-section .comment-respons {
+.comments-section .comment-respond {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -543,6 +536,13 @@ header nav .menu ul.active {
   font-family: var(--text-font);
   font-size: 1rem;
   padding: 5px 10px;
+}
+.comments-section form .form-submit textarea {
+  border-radius: 10px;
+  padding: 10px 20px;
+  max-width: 100%;
+  width: 500px;
+  border-radius: 20px;
 }
 .comments-section form .comment-form-auther .comment-form-email .comment-form-url .comment-form input {
   display: flex;
