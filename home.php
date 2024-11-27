@@ -3,7 +3,7 @@
 <main>
     
         <div class="blog-header">
-            <h1>Recipies</h1>
+            <h1>Opskrifter</h1>
         </div>
         <section class="blog-container ">
 
