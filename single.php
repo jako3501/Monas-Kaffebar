@@ -8,6 +8,7 @@
         $date = get_the_date();
         $author = get_the_author();
         $content = get_the_content();
+        $tiktok = get_field('tiktok_embed');
         ?>
 
         <section class="blog-post">
@@ -16,6 +17,7 @@
                 <h2><?php echo $title; ?></h2>
                 <p><?php echo $date; ?> by <?php echo $author; ?></p>
                 <p><?php echo $content; ?></p>
+                <?php echo $tiktok ?> 
             </article>
         </section>
 
