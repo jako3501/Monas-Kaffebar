@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener('DOMContentLoaded', () => {
     const basketCounter = document.getElementById('basket-counter');
     const addToCartButtons = document.querySelectorAll('.add_to_cart_button');
-    const removeButtons = document.querySelectorAll('.product-remove');
+    const removeButtons = document.querySelectorAll('.remove');
 
     // Retrieve the counter value from localStorage (default to 0 if not set)
     let counter = parseInt(localStorage.getItem('cartCounter')) || 0;
