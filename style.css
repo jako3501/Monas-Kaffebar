@@ -567,6 +567,10 @@ header nav .menu ul.active {
   border-radius: 20px;
   padding: 10px 20px;
 }
+.comments-section ol textarea {
+  max-width: 100%;
+  width: 500px;
+}
 
 .contact-form {
   padding: 0 40px;

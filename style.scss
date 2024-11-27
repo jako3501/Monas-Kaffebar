@@ -682,6 +682,11 @@ header {
             border-radius: 20px;
             padding: 10px 20px;
         }
+
+        textarea {
+            max-width: 100%;
+            width: 500px;
+        }
     }
 }
 
