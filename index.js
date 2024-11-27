@@ -62,6 +62,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 counter--;
                 updateCounterDisplay();
             }
+
+            if (counter == 0) {
+                basketCounter.style.display = 'none';
+            }
         });
     });
 
