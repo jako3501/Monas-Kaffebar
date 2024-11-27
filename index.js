@@ -38,6 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // Counter for basket
 const basketCounter = document.getElementById('basket-counter');
 const addToCartButtons = document.querySelectorAll('.add_to_cart_button');
+const removeButtons = document.querySelectorAll('.remove');
 
 // Retrieve the counter value from localStorage (default to 0 if not set)
 let counter = parseInt(localStorage.getItem('cartCounter')) || 0;
@@ -48,7 +49,6 @@ basketCounter.textContent = counter;
 addToCartButtons.forEach(button => {
     button.addEventListener('click', () => {
         counter++;
-
         basketCounter.textContent = counter;
 
         // Save the new counter value to localStorage
@@ -56,3 +56,14 @@ addToCartButtons.forEach(button => {
     });
 });
 
+removeButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        if (counter > 0) {
+            counter--;
+            basketCounter.textContent = counter;
+
+            // Save the new counter value to localStorage
+            localStorage.setItem('cartCounter', counter);
+        }
+    });
+});
