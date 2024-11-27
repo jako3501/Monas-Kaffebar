@@ -612,12 +612,7 @@ header {
     flex-direction: column;
     align-items: center;
 
-    .coment-form-coment {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 20px 0;
-    }
+    
     h3 {
         font-family: var(--title-font);
         color: var(--headline-color);
@@ -629,46 +624,51 @@ header {
         display:flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    form {
-        padding: 0 20px;
-
-        .form-submit {
-            input {
-                background-color: var(--headline-color);
-                border: none;
-                border-radius: 5px;
-                color: var(--text-color-white);
-                cursor: pointer;
-                font-family: var(--text-font);
-                font-size: 1rem;
-                padding: 5px 10px;
+        .comment-form {
+            padding: 0 20px;
+    
+            .form-submit {
+                input {
+                    background-color: var(--headline-color);
+                    border: none;
+                    border-radius: 5px;
+                    color: var(--text-color-white);
+                    cursor: pointer;
+                    font-family: var(--text-font);
+                    font-size: 1rem;
+                    padding: 5px 10px;
+                }
             }
 
-            textarea {
-                border-radius: 10px;
-                padding: 10px 20px;
-                max-width: 100%;
-                width: 500px;
-                border-radius: 20px;
-            }
-        }
-
-        
-
-        .comment-form-auther .comment-form-email .comment-form-url .comment-form {
-            input {
+            .comment-form-comment {
                 display: flex;
                 flex-direction: column;
-                place-items: left;
-                color: var(--text-color);
-                background-color: var(--background-color);
-                border-radius: 5px;
-                padding-left: 5px;
+                align-items: center;
+                margin: 20px 0;
+                textarea {
+                    border-radius: 10px;
+                    padding: 10px 20px;
+                    max-width: 100%;
+                    width: 500px;
+                    border-radius: 20px;
+                }
+            }
+    
+            .comment-form-auther .comment-form-email .comment-form-url .comment-form {
+                input {
+                    display: flex;
+                    flex-direction: column;
+                    place-items: left;
+                    color: var(--text-color);
+                    background-color: var(--background-color);
+                    border-radius: 5px;
+                    padding-left: 5px;
+                }
             }
         }
     }
+
+    
 
     ol {
         font-family: var(--text-font);

@@ -507,12 +507,6 @@ header nav .menu ul.active {
   flex-direction: column;
   align-items: center;
 }
-.comments-section .coment-form-coment {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 20px 0;
-}
 .comments-section h3 {
   font-family: var(--title-font);
   color: var(--headline-color);
@@ -524,10 +518,10 @@ header nav .menu ul.active {
   flex-direction: column;
   align-items: center;
 }
-.comments-section form {
+.comments-section .comment-respond .comment-form {
   padding: 0 20px;
 }
-.comments-section form .form-submit input {
+.comments-section .comment-respond .comment-form .form-submit input {
   background-color: var(--headline-color);
   border: none;
   border-radius: 5px;
@@ -537,14 +531,20 @@ header nav .menu ul.active {
   font-size: 1rem;
   padding: 5px 10px;
 }
-.comments-section form .form-submit textarea {
+.comments-section .comment-respond .comment-form .comment-form-comment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+.comments-section .comment-respond .comment-form .comment-form-comment textarea {
   border-radius: 10px;
   padding: 10px 20px;
   max-width: 100%;
   width: 500px;
   border-radius: 20px;
 }
-.comments-section form .comment-form-auther .comment-form-email .comment-form-url .comment-form input {
+.comments-section .comment-respond .comment-form .comment-form-auther .comment-form-email .comment-form-url .comment-form input {
   display: flex;
   flex-direction: column;
   place-items: left;
