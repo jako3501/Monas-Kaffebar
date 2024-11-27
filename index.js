@@ -45,9 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let counter = parseInt(localStorage.getItem('cartCounter')) || 0;
 
     // Update the counter display with the saved value
-    if (basketCounter) {
-        basketCounter.textContent = counter;
-    }
+    updateCounterDisplay();
 
     addToCartButtons.forEach(button => {
         button.addEventListener('click', () => {
@@ -62,16 +60,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 counter--;
                 updateCounterDisplay();
             }
-
-            if (counter == 0) {
-                basketCounter.style.display = 'none';
-            }
         });
     });
 
     function updateCounterDisplay() {
         if (basketCounter) {
-            basketCounter.textContent = counter;
+            if (counter === 0) {
+                basketCounter.style.display = 'none';
+            } else {
+                basketCounter.style.display = 'block';
+                basketCounter.textContent = counter;
+            }
         }
 
         // Save the updated counter value to localStorage
