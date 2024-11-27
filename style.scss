@@ -627,9 +627,16 @@ header {
 
     .comments-section form textarea {
         border-radius: 10px;
-        padding: 10px;
+        padding: 10px 20px;
         max-width: 100%;
         width: 500px;
+        border-radius: 20px;
+    }
+
+    .comment-respons {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     form {
