@@ -519,13 +519,14 @@ header nav .menu ul.active {
   font-size: 1.5rem;
   margin: 40px 20px 10px 20px;
 }
-.comments-section form {
-  padding: 0 20px;
-}
-.comments-section form textarea {
+.comments-section .comments-section form textarea {
   border-radius: 10px;
   padding: 10px;
   max-width: 100%;
+  width: 500px;
+}
+.comments-section form {
+  padding: 0 20px;
 }
 .comments-section form .form-submit input {
   background-color: var(--headline-color);
@@ -566,10 +567,6 @@ header nav .menu ul.active {
   max-width: 500px;
   border-radius: 20px;
   padding: 10px 20px;
-}
-.comments-section ol textarea {
-  max-width: 100%;
-  width: 500px;
 }
 
 .contact-form {

@@ -625,14 +625,15 @@ header {
         margin: 40px 20px 10px 20px;
     }
 
+    .comments-section form textarea {
+        border-radius: 10px;
+        padding: 10px;
+        max-width: 100%;
+        width: 500px;
+    }
+
     form {
         padding: 0 20px;
-
-        textarea {
-            border-radius: 10px;
-            padding: 10px;
-            max-width: 100%;
-        }
 
         .form-submit {
             input {
@@ -646,6 +647,8 @@ header {
                 padding: 5px 10px;
             }
         }
+
+        
 
         .comment-form-auther .comment-form-email .comment-form-url .comment-form {
             input {
@@ -681,11 +684,6 @@ header {
             max-width: 500px;
             border-radius: 20px;
             padding: 10px 20px;
-        }
-
-        textarea {
-            max-width: 100%;
-            width: 500px;
         }
     }
 }
